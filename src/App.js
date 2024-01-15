@@ -12,8 +12,8 @@ function App() {
     <Router>
         <Navbar />
         <Routes>
-          <Route path="/yogatemplate" element={<Home />} />
-          <Route path="*" element={<Navigate to="/yogatemplate"/>} />
+          <Route path="/breeyoga" element={<Home />} />
+          <Route path="*" element={<Navigate to="/breeyoga"/>} />
         </Routes>
         <Footer />
     </Router>
