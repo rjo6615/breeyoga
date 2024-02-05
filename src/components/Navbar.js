@@ -30,6 +30,7 @@ function NavbarComponent() {
               <Nav.Link href="#companyBio" className="button-pop-out">Company Origins</Nav.Link>
               <Nav.Link href="#bioBreeC" className="button-pop-out">Bree C Bio</Nav.Link>
               <Nav.Link href="#bioBreeM" className="button-pop-out">Bree M Bio</Nav.Link>
+              <Nav.Link href="#testimonials" className="button-pop-out">Testimonials</Nav.Link>
             </Nav>
             <Button onClick={handleShow} className='float-right button-pop-out' style={{ backgroundColor: '#a2d2ff', borderColor: '#a2d2ff', color: 'black' }}>Book Now</Button>
           </Navbar.Collapse>

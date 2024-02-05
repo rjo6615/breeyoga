@@ -440,13 +440,36 @@ button: current offerings here !!!
           During your experience, I tune in and speak directly from the heart with pure authenticity & love with the guidance/downloads I receive. 
           My life’s purpose is to help show people they are chosen for a unique calling and purpose as well through healing guidance techniques. 
           And most importantly, to always hold a safe space for my students and clients to be seen, heard and understood throughout their journey.
-
 </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<section id="testimonials" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Testimonials</h2>
+          <p> This section will hold testimonials from previous customers!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 </div>    
   );
 }
