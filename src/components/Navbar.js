@@ -10,7 +10,7 @@ function NavbarComponent() {
     <div>
       <Navbar expand="lg" style={{ width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', fontFamily: 'Agbalumo, cursive' }}>
         <Container fluid>
-          <Navbar.Brand href="#">Yoga Template</Navbar.Brand>
+          <Navbar.Brand href="#">Bree Yoga</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
