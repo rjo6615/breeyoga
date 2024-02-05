@@ -22,6 +22,14 @@ function NavbarComponent() {
               <Nav.Link href="#services" className="button-pop-out">Services</Nav.Link>
               <Nav.Link href="#gallery" className="button-pop-out">Gallery</Nav.Link>
               <Nav.Link href="#about" className="button-pop-out">About</Nav.Link>
+              <Nav.Link href="#yogaSound" className="button-pop-out">Yoga & Sound</Nav.Link>
+              <Nav.Link href="#eventMoon" className="button-pop-out">Moon Events</Nav.Link>
+              <Nav.Link href="#eventPrivate" className="button-pop-out">Private Events</Nav.Link>
+              <Nav.Link href="#workshop" className="button-pop-out">Workshops</Nav.Link>
+              <Nav.Link href="#mission" className="button-pop-out">Our Mission</Nav.Link>
+              <Nav.Link href="#companyBio" className="button-pop-out">Company Origins</Nav.Link>
+              <Nav.Link href="#bioBreeC" className="button-pop-out">Bree C Bio</Nav.Link>
+              <Nav.Link href="#bioBreeM" className="button-pop-out">Bree M Bio</Nav.Link>
             </Nav>
             <Button onClick={handleShow} className='float-right button-pop-out' style={{ backgroundColor: '#a2d2ff', borderColor: '#a2d2ff', color: 'black' }}>Book Now</Button>
           </Navbar.Collapse>

@@ -221,6 +221,232 @@ function Home() {
     </div>
   </div>
 </section>
+
+<section id="yogaSound" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Yoga + Sound Experience</h2>
+          <p>
+Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
+Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
+<br></br>
+button: current offerings here !!!
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="eventMoon" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Moon Events</h2>
+          <p> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
+          combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
+          Release tension, clear your mind, and restore your natural equilibrium. 
+          Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
+          <br></br>
+          button: current offerings here !!!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="eventPrivate" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Private Events</h2>
+          <p> Customize the Yoga + Sound Experience for your next corporate or private event. 
+          Team building, leadership events, wellness conferences, birthday parties, girls night in, bach parties, baby showers.
+          <br></br>
+          button: inquire for availability + pricing !!! Add form that sends to email with a few questions email.js </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="workshop" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Workshops</h2>
+          <p> Immerse yourself in the transformative journey of yoga and sound healing with our thoughtfully designed workshops and retreats.
+          Go deeper into these powerful practices, where support and profound learning go hand in hand.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="mission" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Our Mission</h2>
+          <p> Our mission is to create a safe space for our community to experience the transformative power of yoga and sound healing. 
+            Fusing these two practices offers a unique balance of Mind, Body, and Spirit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="companyBio" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Origins</h2>
+          <p> Seven years ago, in the heart of Atlanta, a chance encounter at a wellness boutique brought us together. 
+          It was there that we, Bree and Bree, discovered a mutual passion for yoga and meditation, as well as a shared dream to spread healing across the globe. 
+          Our belief is firmly rooted in the inclusivity of wellness, welcoming individuals of all shapes, sizes, and mindsets. 
+          We are committed to creating an environment where everyone feels accepted and can partake in the journey of healing, support, and unconditional love. 
+          This inclusive approach forms the cornerstone of our mission, ensuring that our space is a sanctuary for all who seek wellness and community.
+          Yoga and Sound is a collective experience where each session is a step towards self-discovery and communal connection. 
+          Our yoga practices are designed to be accessible and empowering, celebrating the diversity and uniqueness of each individual. 
+          Complementing this, our sound healing sessions offer a journey through immersive vibrations, facilitating deep emotional and mental healing. 
+          This dual-instructor approach allows for a beautiful balance. Our teaching styles harmoniously blend to provide a more rounded, diverse, and enriching experience.
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="bioBreeC" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Bree C</h2>
+          <p> Hello, I'm Bree :) Holistic wellness coach, nutritionist, yoga and meditation instructor, and personal trainer. 
+          My approach to mental and physical healing is nurtured through balanced mindfulness, movement, breathing, rest, and proper nutrition. I teach techniques that guide you to:
+          <br></br>
+          Adopt sustainable, nourishing dietary habits that fuel both body and soul.
+          <br></br>
+          Deepen the connection with your inner self, cultivating mindfulness and self-awareness.
+          <br></br>
+          Balance your physical, emotional, and spiritual well-being through integrative practices.
+          <br></br>
+          Enjoy the harmonious, vibrant, and joyous things in life.
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="bioBreeM" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+  <div class="p-5 bg-image" style={{
+        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+        height: '300px'}}
+        ></div>
+
+  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+        marginTop: "-100px",
+        background: "hsla(0, 0%, 100%, 0.6)",
+        backdropFilter: "blur(30px)",
+  }}>
+    <div class="card-body py-5 px-md-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-5">Bree M</h2>
+          <p> Hello, I’m Bree! A natural-born Empathic Clairvoyant, Tarot Reader, Sound Healing Practitioner, Reiki/Energy Healer, Meditation Guide, 
+          Certified Yoga Teacher for over 11 years mastered in methods/forms including Vinyasa, BUTI, YIN, Restorative, Kundalini and many more. 
+          For someone who can see and hear into the spirit world, I love helping people discover the answers they are seeking. 
+          I’m known for my direct honesty, delivery, empathy, sense of humor and accuracy during my classes and 1:1 sessions. 
+          During your experience, I tune in and speak directly from the heart with pure authenticity & love with the guidance/downloads I receive. 
+          My life’s purpose is to help show people they are chosen for a unique calling and purpose as well through healing guidance techniques. 
+          And most importantly, to always hold a safe space for my students and clients to be seen, heard and understood throughout their journey.
+
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </div>    
   );
 }
