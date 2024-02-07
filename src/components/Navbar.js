@@ -1,4 +1,4 @@
-import {Container, Nav, Navbar, Modal, Form, Button}from 'react-bootstrap';
+import {Container, Nav, Navbar, NavDropdown, Modal, Form, Button}from 'react-bootstrap';
 import { useState } from 'react';
 
 function NavbarComponent() {
@@ -16,20 +16,22 @@ function NavbarComponent() {
             <Nav
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px' }}
-              navbarScroll
-            >
+              navbarScroll>
               <Nav.Link href="#home" className="button-pop-out">Home</Nav.Link>
               <Nav.Link href="#services" className="button-pop-out">Services</Nav.Link>
               <Nav.Link href="#gallery" className="button-pop-out">Gallery</Nav.Link>
-              <Nav.Link href="#about" className="button-pop-out">About</Nav.Link>
-              <Nav.Link href="#yogaSound" className="button-pop-out">Yoga & Sound</Nav.Link>
-              <Nav.Link href="#eventMoon" className="button-pop-out">Moon Events</Nav.Link>
-              <Nav.Link href="#eventPrivate" className="button-pop-out">Private Events</Nav.Link>
-              <Nav.Link href="#workshop" className="button-pop-out">Workshops</Nav.Link>
-              <Nav.Link href="#mission" className="button-pop-out">Our Mission</Nav.Link>
-              <Nav.Link href="#companyBio" className="button-pop-out">Company Origins</Nav.Link>
-              <Nav.Link href="#bioBreeC" className="button-pop-out">Bree C Bio</Nav.Link>
-              <Nav.Link href="#bioBreeM" className="button-pop-out">Bree M Bio</Nav.Link>
+                <NavDropdown title="Events" id="events-dropdown" className="button-pop-out">
+                  <NavDropdown.Item href="#yogaSound">Yoga & Sound</NavDropdown.Item>
+                  <NavDropdown.Item href="#eventMoon">Moon Events</NavDropdown.Item>
+                  <NavDropdown.Item href="#eventPrivate">Private Events</NavDropdown.Item>
+                  <NavDropdown.Item href="#workshop">Workshops</NavDropdown.Item>
+                </NavDropdown>              
+                <NavDropdown title="About" id="about-dropdown" className="button-pop-out">
+                  <NavDropdown.Item href="#mission">Our Mission</NavDropdown.Item>
+                  <NavDropdown.Item href="#companyBio">Company Origins</NavDropdown.Item>
+                  <NavDropdown.Item href="#bioBreeC">Bree C Bio</NavDropdown.Item>
+                  <NavDropdown.Item href="#bioBreeM">Bree M Bio</NavDropdown.Item>
+                </NavDropdown>
               <Nav.Link href="#testimonials" className="button-pop-out">Testimonials</Nav.Link>
             </Nav>
             <Button onClick={handleShow} className='float-right button-pop-out' style={{ backgroundColor: '#a2d2ff', borderColor: '#a2d2ff', color: 'black' }}>Book Now</Button>
