@@ -275,6 +275,9 @@ button: current offerings here !!!
         <div class="col-lg-8">
           <h2 class="fw-bold mb-5">Private Events</h2>
           <p> Customize the Yoga + Sound Experience for your next corporate or private event. 
+          <br></br>
+          INSERT CARDS FOR THESE
+          <br></br>
           Team building, leadership events, wellness conferences, birthday parties, girls night in, bach parties, baby showers.
           <br></br>
           button: inquire for availability + pricing !!! Add form that sends to email with a few questions email.js </p>
