@@ -213,33 +213,43 @@ button: current offerings here !!!
   </div>
 </section>
 
-<section id="eventMoon" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
-  <div class="p-5 bg-image" style={{
-        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
-        height: '300px'}}
-        ></div>
+<section id="eventMoon" class="text-center" style={{backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')", paddingBottom: '50px'}}>
+  <div class="container">
+    <div class="row">
+      {/* <!-- Card for text and image --> */}
+      <div class="col-lg-12">
+        <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
+              marginTop: "-100px",
+              background: "hsla(0, 0%, 100%, 0.6)",
+              backdropFilter: "blur(30px)",
+        }}>
+          <div class="card-body py-5 px-md-5">
+            <div class="row">
+              {/* <!-- Column for text on the left --> */}
+              <div class="col-md-6">
+                <h2 class="fw-bold mb-5">Moon Events</h2>
+                <p> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
+                combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
+                Release tension, clear your mind, and restore your natural equilibrium. 
+                Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
+                <br></br>
+                button: current offerings here !!!</p>
+              </div>
 
-  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
-        marginTop: "-100px",
-        background: "hsla(0, 0%, 100%, 0.6)",
-        backdropFilter: "blur(30px)",
-  }}>
-    <div class="card-body py-5 px-md-5">
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
-          <h2 class="fw-bold mb-5">Moon Events</h2>
-          <p> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
-          combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
-          Release tension, clear your mind, and restore your natural equilibrium. 
-          Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
-          <br></br>
-          button: current offerings here !!!</p>
+              {/* <!-- Column for image on the right --> */}
+              <div class="col-md-6">
+                <img src="https://moon.nasa.gov/internal_resources/604/share-phases.jpg" style={{width: '100%', height: 'auto'}}></img>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
+
 
 <section id="eventPrivate" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
   <div class="p-5 bg-image" style={{
