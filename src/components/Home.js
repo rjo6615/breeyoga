@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Container, Row, Carousel, Modal, Form, Button}from 'react-bootstrap';
+import {Card, Container, Row, Modal, Carousel, Form, Button}from 'react-bootstrap';
+import {Carousel as CarouselMulti} from 'react-multi-carousel';
 import { useState } from 'react';
 
 function Home() {
@@ -185,28 +186,43 @@ function Home() {
   </div>
 </section>
 
-<section id="yogaSound" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
-  <div class="p-5 bg-image" style={{
-        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
-        height: '300px'}}
-        ></div>
-
-  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
-        marginTop: "-100px",
-        background: "hsla(0, 0%, 100%, 0.6)",
-        backdropFilter: "blur(30px)",
-  }}>
-    <div class="card-body py-5 px-md-5">
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
-          <h2 class="fw-bold mb-5">Yoga + Sound Experience</h2>
-          <p>
-Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
-Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
-<br></br>
-button: current offerings here !!!
-</p>
+<section id="yogaSound" class="text-center px-5" style={{backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')", paddingBottom: '50px', width: '100vw'}}>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="" style={{
+          backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+          height: '300px'
+        }}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid reveal">
+    {/* <!-- Card for text and image --> */}
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="" style={{
+          marginTop: "-100px",
+          background: "hsla(0, 0%, 100%, 0.6)",
+          backdropFilter: "blur(30px)",
+        }}>
+          <div class="card-body">
+            <div class="row">
+              {/* <!-- Column for image on the left --> */}
+              <div class="col-md-6">
+                <img src="https://moon.nasa.gov/internal_resources/604/share-phases.jpg" style={{maxWidth: '100%', height: 'auto'}}></img>
+              </div>
+              {/* <!-- Column for text on the right --> */}
+              <div class="col-md-6">
+                <h2 class="fw-bold mb-5 py-5">Yoga & Sound Experience!</h2>
+                <p style={{fontSize:"20px"}}>Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
+                Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
+                <br></br>
+                button: current offerings here !!!</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -262,7 +278,7 @@ button: current offerings here !!!
   <div class="p-5 bg-image" style={{
         backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
         height: '300px'}}
-        ></div>
+  ></div>
 
   <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
         marginTop: "-100px",
@@ -274,18 +290,111 @@ button: current offerings here !!!
       <div class="row d-flex justify-content-center">
         <div class="col-lg-8">
           <h2 class="fw-bold mb-5">Private Events</h2>
-          <p> Customize the Yoga + Sound Experience for your next corporate or private event. 
-          <br></br>
-          INSERT CARDS FOR THESE
-          <br></br>
-          Team building, leadership events, wellness conferences, birthday parties, girls night in, bach parties, baby showers.
-          <br></br>
-          button: inquire for availability + pricing !!! Add form that sends to email with a few questions email.js </p>
+          <p> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
+
+          {/* Carousel inside the card */}
+          <Carousel>
+            <Carousel.Item>
+              <img
+                style={{ borderRadius: '0%', width: '900px', height: '410px'}}
+                className="d-block w-100"
+                src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
+                alt="Event Image 1"
+              />
+              <Carousel.Caption>
+                <h3>Team Building</h3>
+                <p>Enhance team bonding with our tailored Yoga + Sound Experience for team building events.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                style={{ borderRadius: '0%', width: '900px', height: '410px'}}
+                className="d-block w-100"
+                src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
+                alt="Event Image 2"
+              />
+              <Carousel.Caption>
+                <h3>Leadership Events</h3>
+                <p>Foster leadership skills and mindfulness in leadership events with our unique experience.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+                  <Carousel.Item>
+            <img
+              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
+              className="d-block w-100"
+              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
+              alt="Event Image 3"
+            />
+            <Carousel.Caption>
+              <h3>Wellness Conferences</h3>
+              <p>Elevate wellness conferences with our unique blend of yoga, sound, and meditation sessions.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
+              className="d-block w-100"
+              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
+              alt="Event Image 4"
+            />
+            <Carousel.Caption>
+              <h3>Birthday Parties</h3>
+              <p>Celebrate birthdays with a special Yoga + Sound Experience that adds joy and relaxation to the occasion.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
+              className="d-block w-100"
+              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
+              alt="Event Image 5"
+            />
+            <Carousel.Caption>
+              <h3>Girls Night In</h3>
+              <p>Create unforgettable memories with your friends during a relaxing and fun Girls Night In event.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
+              className="d-block w-100"
+              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
+              alt="Event Image 6"
+            />
+            <Carousel.Caption>
+              <h3>Beach Parties</h3>
+              <p>Enjoy the soothing sounds of yoga and crystal bowls at beach parties for a unique and memorable experience.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
+              className="d-block w-100"
+              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
+              alt="Event Image 7"
+            />
+            <Carousel.Caption>
+              <h3>Baby Showers</h3>
+              <p>Celebrate the upcoming arrival of a new life with a peaceful and rejuvenating Yoga + Sound Experience.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          </Carousel>
+          
+          
+          <p>button: inquire for availability + pricing !!! Add form that sends to email with a few questions email.js </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 <section id="workshop" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
   <div class="p-5 bg-image" style={{
