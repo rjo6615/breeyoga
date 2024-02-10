@@ -1,7 +1,9 @@
 import React from "react";
 import {Card, Container, Row, Modal, Carousel, Form, Button}from 'react-bootstrap';
-import {Carousel as CarouselMulti} from 'react-multi-carousel';
 import { useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 function Home() {
 
@@ -16,7 +18,7 @@ function Home() {
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
       } else {
-        reveals[i].classList.remove("active");
+        // reveals[i].classList.remove("active");
       }
     }
   }
@@ -26,6 +28,26 @@ function Home() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true, // Enable auto scroll
+    autoplaySpeed: 3000, // Set auto scroll speed to 3 seconds
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <div>
@@ -285,107 +307,95 @@ function Home() {
         background: "hsla(0, 0%, 100%, 0.6)",
         backdropFilter: "blur(30px)",
   }}>
-    <div class="card-body py-5 px-md-5">
+    <div class="card-body py-5">
 
       <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <h2 class="fw-bold mb-5">Private Events</h2>
           <p> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
 
           {/* Carousel inside the card */}
-          <Carousel>
-            <Carousel.Item>
-              <img
-                style={{ borderRadius: '0%', width: '900px', height: '410px'}}
-                className="d-block w-100"
-                src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
-                alt="Event Image 1"
-              />
-              <Carousel.Caption>
-                <h3>Team Building</h3>
-                <p>Enhance team bonding with our tailored Yoga + Sound Experience for team building events.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                style={{ borderRadius: '0%', width: '900px', height: '410px'}}
-                className="d-block w-100"
-                src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
-                alt="Event Image 2"
-              />
-              <Carousel.Caption>
-                <h3>Leadership Events</h3>
-                <p>Foster leadership skills and mindfulness in leadership events with our unique experience.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-                  <Carousel.Item>
-            <img
-              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
-              className="d-block w-100"
-              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
-              alt="Event Image 3"
-            />
-            <Carousel.Caption>
-              <h3>Wellness Conferences</h3>
-              <p>Elevate wellness conferences with our unique blend of yoga, sound, and meditation sessions.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
-              className="d-block w-100"
-              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
-              alt="Event Image 4"
-            />
-            <Carousel.Caption>
-              <h3>Birthday Parties</h3>
-              <p>Celebrate birthdays with a special Yoga + Sound Experience that adds joy and relaxation to the occasion.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
-              className="d-block w-100"
-              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
-              alt="Event Image 5"
-            />
-            <Carousel.Caption>
-              <h3>Girls Night In</h3>
-              <p>Create unforgettable memories with your friends during a relaxing and fun Girls Night In event.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
-              className="d-block w-100"
-              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
-              alt="Event Image 6"
-            />
-            <Carousel.Caption>
-              <h3>Beach Parties</h3>
-              <p>Enjoy the soothing sounds of yoga and crystal bowls at beach parties for a unique and memorable experience.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              style={{ borderRadius: '0%', width: '900px', height: '410px'}}
-              className="d-block w-100"
-              src="https://www.makanasbeachbungalows.com/wp-content/uploads/2015/10/beach-yoga.jpg"
-              alt="Event Image 7"
-            />
-            <Carousel.Caption>
-              <h3>Baby Showers</h3>
-              <p>Celebrate the upcoming arrival of a new life with a peaceful and rejuvenating Yoga + Sound Experience.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          </Carousel>
+          <div className="container text-center my-3">
+      <Slider {...settings}>
+        <div className="container text-center my-3">
+        <div className="col-md-12">
+          <div className="card card1 card-body position-relative">
+            <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
+            <div className="overlay">
+              <div className="title">Team Building</div>
+              <div className="description">Enhance team bonding with our tailored Yoga + Sound Experience for team building events.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div className="container text-center my-3">
+        <div className="col-md-12">
+          <div className="card card1 card-body position-relative">
+            <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
+            <div className="overlay">
+              <div className="title">Team Building</div>
+              <div className="description">Enhance team bonding with our tailored Yoga + Sound Experience for team building events.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div className="container text-center my-3">
+        <div className="col-md-12">
+          <div className="card card1 card-body position-relative">
+            <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
+            <div className="overlay">
+              <div className="title">Team Building</div>
+              <div className="description">Enhance team bonding with our tailored Yoga + Sound Experience for team building events.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div className="container text-center my-3">
+        <div className="col-md-12">
+          <div className="card card1 card-body position-relative">
+            <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
+            <div className="overlay">
+              <div className="title">Team Building</div>
+              <div className="description">Enhance team bonding with our tailored Yoga + Sound Experience for team building events.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div className="container text-center my-3">
+        <div className="col-md-12">
+          <div className="card card1 card-body position-relative">
+            <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
+            <div className="overlay">
+              <div className="title">Team Building</div>
+              <div className="description">Enhance team bonding with our tailored Yoga + Sound Experience for team building events.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div className="container text-center my-3">
+        <div className="col-md-12">
+          <div className="card card1 card-body position-relative">
+            <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
+            <div className="overlay">
+              <div className="title">Team Building</div>
+              <div className="description">Enhance team bonding with our tailored Yoga + Sound Experience for team building events.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div className="container text-center my-3">
+        <div className="col-md-12">
+          <div className="card card1 card-body position-relative">
+            <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
+            <div className="overlay">
+              <div className="title">Team Building</div>
+              <div className="description">Enhance team bonding with our tailored Yoga + Sound Experience for team building events.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </Slider>
+    </div>
           
           
           <p>button: inquire for availability + pricing !!! Add form that sends to email with a few questions email.js </p>
