@@ -252,7 +252,7 @@ function Home() {
             <div class="row">
               {/* <!-- Column for image on the left --> */}
               <div class="col-md-6">
-                <img src={BigGroupSit} style={{maxWidth: '100%', height: 'auto'}}></img>
+                <img src={BigGroupSit} style={{maxWidth: '100%', height: '600px'}}></img>
               </div>
               {/* <!-- Column for text on the right --> */}
               <div class="col-md-6">
