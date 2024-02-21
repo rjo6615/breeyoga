@@ -51,20 +51,37 @@ function Home() {
 
   return (
     <div>
-    <div id='home' style={{ height: 'auto', backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingTop: '100px' }}>
+      {/* <!-- Hero --> */}
+<div class=" text-center bg-image rounded-3" style={{
+    backgroundImage: 'url(https://beyogi.com/wp-content/uploads/2020/08/sound-healing-blog.png)',
+    backgroundSize: "cover",
+    height: "900px"
+  }}>
+  <div class="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.6)", height: "900px"}}>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="text-white" style={{paddingTop: "600px"}}>
+        <h1 class="mb-3">Yoga and Sound Healing</h1>
+        <h4 class="mb-3">Come join me in the healing that I do to heal you to make you better</h4>
+        <a class="btn btn-outline-light btn-lg" href="#!" role="button">Contact me</a>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Hero --> */}
+    {/* <div id='home' style={{ height: '900px', backgroundImage: 'url(https://beyogi.com/wp-content/uploads/2020/08/sound-healing-blog.png)', backgroundSize: "cover", paddingTop: '100px' }}>
       <div className="d-flex justify-content-center slideInLeft">
         <section className="text-center text-lg-start">
           <div className="card mb-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderColor: 'rgba(0, 0, 0, 0.0)' }}>
             <div className="row g-0 d-flex align-items-center">
-              <div className="col-lg-5 d-flex justify-content-center align-items-center">
-                <img src="https://pngimg.com/d/yoga_PNG13.png" alt="Trendy Pants and Shoes"
-                  className="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5" />
-              </div>
+              <div className="col-lg-5 d-flex justify-content-center align-items-center"> */}
+                {/* <img src="https://pngimg.com/d/yoga_PNG13.png" alt="Trendy Pants and Shoes"
+                  className="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5" /> */}
+              {/* </div>
               <div className="col-lg-6">
-                <div className="card-body py-5 px-md-5">
-                  <h1 style={{ fontFamily: 'Agbalumo, cursive' }}>We do the Yoga stuff and things</h1>
-                  <Button onClick={handleShow} className='float-right button-pop-out' style={{ fontFamily: 'Agbalumo, cursive', backgroundColor: '#a2d2ff', borderColor: '#a2d2ff', color: 'black' }}>Book Now</Button>
-                  <Modal show={show} onHide={handleClose}>
+                <div className="card-body py-5 px-md-5"> */}
+                  {/* <h1 style={{ fontFamily: 'Agbalumo, cursive' }}>We do the Yoga stuff and things</h1> */}
+                  {/* <Button onClick={handleShow} className='float-right button-pop-out' style={{ fontFamily: 'Agbalumo, cursive', backgroundColor: '#a2d2ff', borderColor: '#a2d2ff', color: 'black' }}>Book Now</Button> */}
+                  {/* <Modal show={show} onHide={handleClose}>
                     <div style={{ backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', fontFamily: 'Agbalumo, cursive'}}>
                     <Modal.Header closeButton>
                       <Modal.Title>Book Now</Modal.Title>
@@ -101,15 +118,15 @@ function Home() {
                       </Button>
                     </Modal.Footer>
                     </div>
-                  </Modal>
-                </div>
+                  </Modal> */}
+                {/* </div>
               </div>
             </div>
           </div>
         </section>
-      </div>    
-      <center>
-      <Container id='services'>
+      </div>     */}
+      {/* <center>
+      <Container id='services' style={{marginTop: "300px"}}>
       <Row className="d-flex flex-wrap justify-content-center slideInRight">
         <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
           <Card className="text-black mt-4 mx-3 image-hover" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderStyle: 'none', width: '15rem' }}>
@@ -137,8 +154,8 @@ function Home() {
         </div>
       </Row>
     </Container>
-    </center>
-</div>
+    </center> */}
+{/* </div> */}
 <section class="background-radial-gradient overflow-hidden" id='gallery'>
   <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
     <div class="row gx-lg-5 align-items-center mb-5 reveal">
@@ -406,7 +423,7 @@ function Home() {
 </section>
 
 
-<section id="workshop" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+{/* <section id="workshop" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
   <div class="p-5 bg-image" style={{
         backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
         height: '300px'}}
@@ -570,7 +587,7 @@ function Home() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 </div>    
   );
