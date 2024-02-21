@@ -1,4 +1,4 @@
-import {Container, Nav, Navbar, NavDropdown, Modal, Form, Button}from 'react-bootstrap';
+import {Container, Nav, Navbar, NavDropdown, Modal, Form, Button, Offcanvas}from 'react-bootstrap';
 import { useState } from 'react';
 import logo from '../images/Logo.png';
 
@@ -9,20 +9,37 @@ function NavbarComponent() {
   const handleShow = () => setShow(true);
   return (
     <div>
-      <Navbar expand="lg" style={{ height: '100px', width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #e1c684, #fad02c)', fontFamily: 'Agbalumo, cursive', fontSize: '22px' }}>
-        <Container fluid>
-          <Navbar.Brand href="#" className="navbar-center text-black" style={{fontSize:""}}>
+       <Navbar expand="lg" style={{ height: '100px', width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #e1c684, #fad02c)', fontFamily: 'Agbalumo, cursive', fontSize: '22px' }}>
+        <Navbar.Brand href="#" className="navbar-center text-black">
         <img
+            src={logo}
+            height="60px"
+            alt="Logo"
+            loading="lazy"
+            style={{ marginTop: "-1px", marginLeft: "60px" }}
+            className="me-5"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
+        <Navbar.Offcanvas
+          id={`offcanvasNavbar-expand-md`}
+          aria-labelledby={`offcanvasNavbarLabel-expand-md`}
+          placement="end"
+        >
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
+            <img
             src={logo}
             height="60px"
             alt="Logo"
             loading="lazy"
             style={{ marginTop: "-1px" }}
             className="me-5"
-          /></Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
+          />
+            </Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+          <Nav
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px' }}
               navbarScroll>
@@ -34,7 +51,7 @@ function NavbarComponent() {
                   <NavDropdown.Item href="#eventMoon">Moon Events</NavDropdown.Item>
                   <NavDropdown.Item href="#eventPrivate">Private Events</NavDropdown.Item>
                   <NavDropdown.Item href="#workshop">Workshops</NavDropdown.Item>
-                </NavDropdown>              
+                </NavDropdown>
                 <NavDropdown title="About" id="about-dropdown" className="button-pop-out">
                   <NavDropdown.Item href="#mission">Our Mission</NavDropdown.Item>
                   <NavDropdown.Item href="#companyBio">Company Origins</NavDropdown.Item>
@@ -43,9 +60,8 @@ function NavbarComponent() {
                 </NavDropdown>
               <Nav.Link href="#testimonials" className="button-pop-out">Testimonials</Nav.Link>
             </Nav>
-            <Button onClick={handleShow} className='float-right button-pop-out' style={{ backgroundColor: '#a2d2ff', borderColor: '#a2d2ff', color: 'black' }}>Book Now</Button>
-          </Navbar.Collapse>
-        </Container>
+          </Offcanvas.Body>
+        </Navbar.Offcanvas>
       </Navbar>
       <Modal show={show} onHide={handleClose}>
         <div style={{ backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', fontFamily: 'Agbalumo, cursive'}}>

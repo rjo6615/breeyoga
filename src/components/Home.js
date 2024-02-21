@@ -226,12 +226,12 @@ function Home() {
   </div>
 </section> */}
 
-<section id="yogaSound" class="text-center px-5" style={{backgroundColor: '#90adc6', paddingBottom: '50px', width: '100vw'}}>
+<section id="yogaSound" class="text-center " style={{backgroundColor: '#fff6ea', paddingBottom: '', width: '100vw'}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
         <div class="" style={{
-          backgroundColor: '#90adc6',
+          backgroundColor: '#fff6ea',
           height: '300px'
         }}>
         </div>
@@ -243,8 +243,8 @@ function Home() {
     <div class="row">
       <div class="col-lg-12">
         <div class="" style={{
-          marginTop: "-100px",
-          background: "hsla(0, 0%, 100%, 0.6)",
+          marginTop: "-250px",
+          background: "#fff6ea",
           backdropFilter: "blur(30px)",
         }}>
           <div class="card-body">
@@ -269,13 +269,13 @@ function Home() {
   </div>
 </section>
 
-<section id="eventMoon" class="text-center px-5" style={{backgroundColor: '#90adc6', paddingBottom: '50px', width: '100vw'}}>
+<section id="eventMoon" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px', width: '100vw'}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
         <div class="" style={{
-          backgroundColor: '#90adc6',
-          height: '300px'
+          backgroundColor: '#fff6ea',
+          height: '200px'
         }}>
         </div>
       </div>
@@ -287,7 +287,7 @@ function Home() {
       <div class="col-lg-12">
         <div class="" style={{
           marginTop: "-100px",
-          background: "hsla(0, 0%, 100%, 0.6)",
+          background: "#fff6ea",
           backdropFilter: "blur(30px)",
         }}>
           <div class="card-body">
