@@ -276,7 +276,6 @@ function Home() {
     <div class="card-body py-5">
 
       <div class="row d-flex justify-content-center">
-        <div class="col-lg-12">
           <h2 class="fw-bold mb-5">Private Events</h2>
           <p> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
 
@@ -364,7 +363,7 @@ function Home() {
     </div>
           
           
-    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>        </div>
+    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>        
       </div>
     </div>
 </section>
