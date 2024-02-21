@@ -1,5 +1,6 @@
 import {Container, Nav, Navbar, NavDropdown, Modal, Form, Button}from 'react-bootstrap';
 import { useState } from 'react';
+import logo from '../images/Logo.png';
 
 function NavbarComponent() {
   const [show, setShow] = useState(false);
@@ -10,7 +11,15 @@ function NavbarComponent() {
     <div>
       <Navbar expand="lg" style={{ height: '100px', width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #e1c684, #fad02c)', fontFamily: 'Agbalumo, cursive', fontSize: '22px' }}>
         <Container fluid>
-          <Navbar.Brand href="#" style={{fontSize: '30px', fontFamily: ''}}>Yoga+Sound</Navbar.Brand>
+          <Navbar.Brand href="#" className="navbar-center text-black" style={{fontSize:""}}>
+        <img
+            src={logo}
+            height="60px"
+            alt="Logo"
+            loading="lazy"
+            style={{ marginTop: "-1px" }}
+            className="me-5"
+          /></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
