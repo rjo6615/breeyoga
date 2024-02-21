@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Hero from "../images/Hero.jpg";
 
 function Home() {
 
@@ -51,7 +52,24 @@ function Home() {
 
   return (
     <div>
-    <div id='home' style={{ height: 'auto', backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingTop: '100px' }}>
+    {/* <!-- Hero --> /} */}
+<div class=" text-center bg-image rounded-3" style={{
+    backgroundImage: 'url(' + Hero + ')',
+    backgroundSize: "cover",
+    height: "900px"
+  }}>
+  <div class="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.6)", height: "900px"}}>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="text-white" style={{paddingTop: "200px"}}>
+        <h1 class="mb-3" style={{fontSize: "50px", fontFamily: ""}}>Yoga and Sound Healing</h1>
+        <h4 class="mb-3">Come join me in the healing that I do to heal you to make you better</h4>
+        <a class="btn btn-outline-light btn-lg" href="#!" role="button">Contact me</a>
+      </div>
+    </div>
+  </div>
+</div>
+{/* {/ <!-- Hero --> */}
+    {/* <div id='home' style={{ height: 'auto', backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingTop: '100px' }}>
       <div className="d-flex justify-content-center slideInLeft">
         <section className="text-center text-lg-start">
           <div className="card mb-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', borderColor: 'rgba(0, 0, 0, 0.0)' }}>
@@ -138,8 +156,8 @@ function Home() {
       </Row>
     </Container>
     </center>
-</div>
-<section class="background-radial-gradient overflow-hidden" id='gallery'>
+</div> */}
+{/* <section class="background-radial-gradient overflow-hidden" id='gallery'>
   <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
     <div class="row gx-lg-5 align-items-center mb-5 reveal">
       <div class="col-lg-6 mb-5 mb-lg-0">
@@ -206,14 +224,14 @@ function Home() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
-<section id="yogaSound" class="text-center px-5" style={{backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')", paddingBottom: '50px', width: '100vw'}}>
+<section id="yogaSound" class="text-center px-5" style={{backgroundColor: '#90adc6', paddingBottom: '50px', width: '100vw'}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
         <div class="" style={{
-          backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+          backgroundColor: '#90adc6',
           height: '300px'
         }}>
         </div>
@@ -251,12 +269,12 @@ function Home() {
   </div>
 </section>
 
-<section id="eventMoon" class="text-center px-5" style={{backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')", paddingBottom: '50px', width: '100vw'}}>
+<section id="eventMoon" class="text-center px-5" style={{backgroundColor: '#90adc6', paddingBottom: '50px', width: '100vw'}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
         <div class="" style={{
-          backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
+          backgroundColor: '#90adc6',
           height: '300px'
         }}>
         </div>
@@ -406,7 +424,7 @@ function Home() {
 </section>
 
 
-<section id="workshop" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+{/* <section id="workshop" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
   <div class="p-5 bg-image" style={{
         backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
         height: '300px'}}
@@ -570,7 +588,7 @@ function Home() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 </div>    
   );

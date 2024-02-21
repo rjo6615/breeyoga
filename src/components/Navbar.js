@@ -8,9 +8,9 @@ function NavbarComponent() {
   const handleShow = () => setShow(true);
   return (
     <div>
-      <Navbar expand="lg" style={{ width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', fontFamily: 'Agbalumo, cursive' }}>
+      <Navbar expand="lg" style={{ height: '100px', width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #e1c684, #fad02c)', fontFamily: 'Agbalumo, cursive', fontSize: '22px' }}>
         <Container fluid>
-          <Navbar.Brand href="#">Bree Yoga</Navbar.Brand>
+          <Navbar.Brand href="#" style={{fontSize: '30px', fontFamily: ''}}>Yoga+Sound</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
