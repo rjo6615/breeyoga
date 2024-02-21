@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Hero from "../images/Hero.jpg";
+import BigGroupSit from "../images/BigGroupSit.jpg";
 
 function Home() {
 
@@ -226,7 +227,7 @@ function Home() {
   </div>
 </section> */}
 
-<section id="yogaSound" class="text-center " style={{backgroundColor: '#fff6ea', paddingBottom: '', width: '100vw'}}>
+<section id="yogaSound"  style={{backgroundColor: '#fff6ea', paddingBottom: '', width: '100vw'}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
@@ -251,15 +252,17 @@ function Home() {
             <div class="row">
               {/* <!-- Column for image on the left --> */}
               <div class="col-md-6">
-                <img src="https://moon.nasa.gov/internal_resources/604/share-phases.jpg" style={{maxWidth: '100%', height: 'auto'}}></img>
+                <img src={BigGroupSit} style={{maxWidth: '100%', height: 'auto'}}></img>
               </div>
               {/* <!-- Column for text on the right --> */}
               <div class="col-md-6">
-                <h2 class="fw-bold mb-5 py-5">Yoga & Sound Experience!</h2>
-                <p style={{fontSize:"20px"}}>Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
-                Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
-                <br></br>
-                button: current offerings here !!!</p>
+                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px"}}>Yoga & Sound Experience!</h1>
+                  <p style={{textAlign: "left", fontSize:"30px"}}>Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
+                  Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
+                  <br></br>
+                  <br></br>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>
+                  </p>
               </div>
             </div>
           </div>
@@ -269,62 +272,7 @@ function Home() {
   </div>
 </section>
 
-<section id="eventMoon" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px', width: '100vw'}}>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <div class="" style={{
-          backgroundColor: '#fff6ea',
-          height: '200px'
-        }}>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid reveal">
-    {/* <!-- Card for text and image --> */}
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="" style={{
-          marginTop: "-100px",
-          background: "#fff6ea",
-          backdropFilter: "blur(30px)",
-        }}>
-          <div class="card-body">
-            <div class="row">
-              {/* <!-- Column for text on the left --> */}
-              <div class="col-md-6">
-                <h2 class="fw-bold mb-5 py-5">Moon Events</h2>
-                <p style={{fontSize:"20px"}}> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
-                combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
-                Release tension, clear your mind, and restore your natural equilibrium. 
-                Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
-                <br></br>
-                button: current offerings here !!!</p>
-              </div>
-              {/* <!-- Column for image on the right --> */}
-              <div class="col-md-6">
-                <img src="https://moon.nasa.gov/internal_resources/604/share-phases.jpg" style={{maxWidth: '100%', height: 'auto'}}></img>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="eventPrivate" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
-  <div class="p-5 bg-image" style={{
-        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
-        height: '300px'}}
-  ></div>
-
-  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
-        marginTop: "-100px",
-        background: "hsla(0, 0%, 100%, 0.6)",
-        backdropFilter: "blur(30px)",
-  }}>
+<section id="eventPrivate" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px'}}>
     <div class="card-body py-5">
 
       <div class="row d-flex justify-content-center">
@@ -416,7 +364,50 @@ function Home() {
     </div>
           
           
-          <p>button: inquire for availability + pricing !!! Add form that sends to email with a few questions email.js </p>
+    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>        </div>
+      </div>
+    </div>
+</section>
+
+<section id="eventMoon" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px', width: '100vw'}}>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="" style={{
+          backgroundColor: '#fff6ea',
+          height: '200px'
+        }}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid reveal">
+    {/* <!-- Card for text and image --> */}
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="" style={{
+          marginTop: "-250px",
+          background: "#fff6ea",
+          backdropFilter: "blur(30px)",
+        }}>
+          <div class="card-body">
+            <div class="row">
+              {/* <!-- Column for text on the left --> */}
+              <div class="col-md-6">
+                <h2 class="fw-bold mb-5 py-5">Moon Events</h2>
+                <p style={{fontSize:"20px"}}> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
+                combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
+                Release tension, clear your mind, and restore your natural equilibrium. 
+                Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
+                <br></br>
+                button: current offerings here !!!</p>
+              </div>
+              {/* <!-- Column for image on the right --> */}
+              <div class="col-md-6">
+                <img src="https://moon.nasa.gov/internal_resources/604/share-phases.jpg" style={{maxWidth: '100%', height: 'auto'}}></img>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

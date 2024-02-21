@@ -9,7 +9,7 @@ function NavbarComponent() {
   const handleShow = () => setShow(true);
   return (
     <div>
-       <Navbar expand="lg" style={{ height: '100px', width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #e1c684, #fad02c)', fontFamily: 'Agbalumo, cursive', fontSize: '22px' }}>
+       <Navbar expand="lg" style={{ height: '100px', width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #e1c684, #fff6ea)', fontFamily: 'Agbalumo, cursive', fontSize: '22px' }}>
         <Navbar.Brand href="#" className="navbar-center text-black">
         <img
             src={logo}
@@ -48,8 +48,8 @@ function NavbarComponent() {
               <Nav.Link href="#gallery" className="button-pop-out">Gallery</Nav.Link>
                 <NavDropdown title="Events" id="events-dropdown" className="button-pop-out">
                   <NavDropdown.Item href="#yogaSound">Yoga & Sound</NavDropdown.Item>
-                  <NavDropdown.Item href="#eventMoon">Moon Events</NavDropdown.Item>
                   <NavDropdown.Item href="#eventPrivate">Private Events</NavDropdown.Item>
+                  <NavDropdown.Item href="#eventMoon">Moon Events</NavDropdown.Item>
                   <NavDropdown.Item href="#workshop">Workshops</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="About" id="about-dropdown" className="button-pop-out">
