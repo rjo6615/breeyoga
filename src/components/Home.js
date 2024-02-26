@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Hero from "../images/Hero.jpg";
 import BigGroupSit from "../images/BigGroupSit.jpg";
+import Moon from "../images/Moon.gif";
 
 function Home() {
 
@@ -62,8 +63,8 @@ function Home() {
   <div class="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.6)", height: "900px"}}>
     <div class="d-flex justify-content-center align-items-center">
       <div class="text-white" style={{paddingTop: "200px"}}>
-        <h1 class="mb-3" style={{fontSize: "50px", fontFamily: ""}}>Yoga and Sound Healing</h1>
-        <h4 class="mb-3">Come join me in the healing that I do to heal you to make you better</h4>
+        <h1 class="mb-3" style={{fontSize: "50px", fontFamily: "Prata"}}>Yoga and Sound Healing</h1>
+        <h4 class="mb-3" style={{fontSize: "26px", fontFamily: "Prata"}}>Come join me in the healing that I do to heal you to make you better</h4>
         <a class="btn btn-outline-light btn-lg" href="#!" role="button">Contact me</a>
       </div>
     </div>
@@ -256,8 +257,8 @@ function Home() {
               </div>
               {/* <!-- Column for text on the right --> */}
               <div class="col-md-6">
-                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px"}}>Yoga & Sound Experience!</h1>
-                  <p style={{textAlign: "left", fontSize:"30px"}}>Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
+                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px", fontFamily: 'Prata'}}>Yoga & Sound Experience!</h1>
+                  <p style={{textAlign: "left", fontSize:"26px", fontFamily: 'Prata'}}>Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
                   Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
                   <br></br>
                   <br></br>
@@ -276,8 +277,8 @@ function Home() {
     <div class="card-body py-5">
 
       <div class="row d-flex justify-content-center">
-          <h2 class="fw-bold mb-5">Private Events</h2>
-          <p> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
+          <h2 class="fw-bold mb-5" style={{fontFamily: 'Prata'}}>Private Events</h2>
+          <p style={{fontFamily: 'Prata', fontSize:"24px"}}> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
 
           {/* Carousel inside the card */}
           <div className="container text-center my-3">
@@ -393,8 +394,8 @@ function Home() {
             <div class="row">
               {/* <!-- Column for text on the left --> */}
               <div class="col-md-6">
-                <h2 class="fw-bold mb-5 py-5">Moon Events</h2>
-                <p style={{fontSize:"20px"}}> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
+                <h2 style={{fontFamily: 'Prata'}} class="fw-bold mb-5 py-5">Moon Events</h2>
+                <p style={{fontSize:"20px", fontFamily: 'Prata'}}> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
                 combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
                 Release tension, clear your mind, and restore your natural equilibrium. 
                 Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
@@ -403,7 +404,7 @@ function Home() {
               </div>
               {/* <!-- Column for image on the right --> */}
               <div class="col-md-6">
-                <img src="https://moon.nasa.gov/internal_resources/604/share-phases.jpg" style={{maxWidth: '100%', height: 'auto'}}></img>
+                <img src={Moon} style={{maxWidth: '100%', height: 'auto'}}></img>
               </div>
             </div>
           </div>
