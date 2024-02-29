@@ -61,7 +61,7 @@ function Home() {
     backgroundSize: "cover",
     height: "900px"
   }}>
-  <div class="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.6)", height: "900px"}}>
+  <div class="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.2)", height: "900px"}}>
     <div class="d-flex justify-content-center align-items-center">
       <div class="text-white" style={{paddingTop: "200px"}}>
         <h1 class="mb-3" style={{fontSize: "50px", fontFamily: "Prata"}}>Yoga and Sound Healing</h1>
