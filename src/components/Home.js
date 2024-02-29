@@ -231,7 +231,7 @@ function Home() {
       <div class="col-lg-12">
         <div class="py-5" style={{
           marginTop: "-250px",
-          background: 'linear-gradient(rgba(255, 246, 234, 0.6), rgba(255, 246, 234, 1)), url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg)',
+          background: 'linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, 0.8) 20%, rgba(255, 246, 234, 0.8) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg)',
           backdropFilter: "blur(30px)",
         }}>
           <div class="card-body">
