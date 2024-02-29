@@ -78,7 +78,7 @@ function Home() {
       <div class="col">
         <div class="" style={{
           backgroundColor: '#fff6ea',
-          height: '300px'
+          height: '400px'
         }}>
         </div>
       </div>
@@ -117,7 +117,7 @@ function Home() {
   </div>
 </section>
 
-<section id="eventPrivate" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px'}}>
+<section id="eventPrivate" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '150px', paddingTop: "100px"}}>
     <div class="card-body py-5">
 
       <div class="">
@@ -259,7 +259,7 @@ function Home() {
   </div>
 </section>
 
-<section id="workshop"  style={{backgroundColor: '#fff6ea', paddingBottom: ''}}>
+<section id="workshop"  style={{backgroundColor: '#fff6ea', paddingBottom: '100px'}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
@@ -305,30 +305,21 @@ function Home() {
   </div>
 </section>
 
-{/* <section id="mission" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
-  <div class="p-5 bg-image" style={{
-        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
-        height: '300px'}}
-        ></div>
+<section id="mission" class="text-center" style={{backgroundImage: 'linear-gradient(to top, #e1c684, #fff6ea)', paddingBottom: '50px'}}>
 
-  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
-        marginTop: "-100px",
-        background: "hsla(0, 0%, 100%, 0.6)",
-        backdropFilter: "blur(30px)",
-  }}>
+
     <div class="card-body py-5 px-md-5">
 
       <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
-          <h2 class="fw-bold mb-5">Our Mission</h2>
-          <p> Our mission is to create a safe space for our community to experience the transformative power of yoga and sound healing. 
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-5" style={{fontSize: "45px",  fontFamily: 'Prata'}}>Our Mission</h2>
+          <p style={{fontSize: "26px",  fontFamily: 'Prata'}}> Our mission is to create a safe space for our community to experience the transformative power of yoga and sound healing. 
             Fusing these two practices offers a unique balance of Mind, Body, and Spirit.</p>
         </div>
       </div>
     </div>
-  </div>
 </section>
-
+{/*
 <section id="companyBio" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
   <div class="p-5 bg-image" style={{
         backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
