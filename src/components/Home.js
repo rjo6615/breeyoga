@@ -229,7 +229,7 @@ function Home() {
   </div>
 </section> */}
 
-<section id="yogaSound"  style={{backgroundColor: '#fff6ea', paddingBottom: '', width: '100vw'}}>
+<section id="yogaSound"  style={{backgroundColor: '#fff6ea', paddingBottom: ''}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
@@ -277,7 +277,7 @@ function Home() {
 <section id="eventPrivate" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px'}}>
     <div class="card-body py-5">
 
-      <div class="row d-flex justify-content-center">
+      <div class="">
           <h2 class="fw-bold mb-5" style={{fontFamily: 'Prata'}}>Private Events</h2>
           <p style={{fontFamily: 'Prata', fontSize:"24px"}}> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
 
@@ -370,7 +370,7 @@ function Home() {
     </div>
 </section>
 
-<section id="eventMoon" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px', width: '100vw'}}>
+<section id="eventMoon" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px'}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
@@ -386,9 +386,9 @@ function Home() {
     {/* {/* <!-- Card for text and image --> /} */}
     <div class="row">
       <div class="col-lg-12">
-        <div class="" style={{
+        <div class="py-5" style={{
           marginTop: "-250px",
-          background: "#fff6ea",
+          background: 'linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)), url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg)',
           backdropFilter: "blur(30px)",
         }}>
           <div class="card-body">
@@ -416,7 +416,7 @@ function Home() {
   </div>
 </section>
 
-<section id="workshop"  style={{backgroundColor: '#fff6ea', paddingBottom: '', width: '100vw'}}>
+<section id="workshop"  style={{backgroundColor: '#fff6ea', paddingBottom: ''}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
