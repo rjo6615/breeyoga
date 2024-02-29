@@ -9,7 +9,7 @@ function NavbarComponent() {
   const handleShow = () => setShow(true);
   return (
     <div>
-       <Navbar expand="lg" style={{ height: '100px', width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #e1c684, #fff6ea)', fontFamily: 'Agbalumo, cursive', fontSize: '22px' }}>
+       <Navbar expand="lg" style={{ height: '100px', width: '100%', zIndex: '1', position: 'fixed', backgroundImage: 'linear-gradient(to bottom right, #90adc6, #fff6ea)', fontFamily: 'Agbalumo, cursive', fontSize: '22px' }}>
         <Navbar.Brand href="#" className="navbar-center text-black">
         <img
             src={logo}

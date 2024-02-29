@@ -305,7 +305,7 @@ function Home() {
   </div>
 </section>
 
-<section id="mission" class="text-center" style={{backgroundImage: 'linear-gradient(to top, #e1c684, #fff6ea)', paddingBottom: '50px'}}>
+<section id="mission" class="text-center" style={{backgroundImage: 'linear-gradient(to top, #90adc6, #fff6ea)', paddingBottom: '50px'}}>
 
 
     <div class="card-body py-5 px-md-5">
