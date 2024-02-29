@@ -41,7 +41,7 @@ function NavbarComponent() {
           <Offcanvas.Body>
           <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
+              style={{ maxHeight: '100px', fontFamily: 'Prata' }}
               navbarScroll>
               <Nav.Link href="#home" className="button-pop-out">Home</Nav.Link>
               <Nav.Link href="#services" className="button-pop-out">Services</Nav.Link>
