@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Hero from "../images/Hero.jpg";
 import BigGroupSit from "../images/BigGroupSit.jpg";
 import Moon from "../images/Moon.gif";
+import WarriorOne from "../images/WarriorOne.jpg";
 
 function Home() {
 
@@ -65,7 +66,7 @@ function Home() {
       <div class="text-white" style={{paddingTop: "200px"}}>
         <h1 class="mb-3" style={{fontSize: "50px", fontFamily: "Prata"}}>Yoga and Sound Healing</h1>
         <h4 class="mb-3" style={{fontSize: "26px", fontFamily: "Prata"}}>Come join me in the healing that I do to heal you to make you better</h4>
-        <a class="btn btn-outline-light btn-lg" href="#!" role="button">Contact me</a>
+        <a class="btn btn-outline-light btn-lg" style={{fontFamily:"Prata"}} href="#!" role="button">Contact me</a>
       </div>
     </div>
   </div>
@@ -364,7 +365,7 @@ function Home() {
     </div>
           
           
-    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>        
+    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"30px", fontFamily:"Prata"}} href="#!" role="button">Contact me</a></center>        
       </div>
     </div>
 </section>
@@ -414,32 +415,55 @@ function Home() {
   </div>
 </section>
 
+<hr style={{border: '1px solid #fff6ea', width: '100%', margin: '0', height: '0'}} />
 
-{/* <section id="workshop" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
-  <div class="p-5 bg-image" style={{
-        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
-        height: '300px'}}
-        ></div>
-
-  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
-        marginTop: "-100px",
-        background: "hsla(0, 0%, 100%, 0.6)",
-        backdropFilter: "blur(30px)",
-  }}>
-    <div class="card-body py-5 px-md-5">
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
-          <h2 class="fw-bold mb-5">Workshops</h2>
-          <p> Immerse yourself in the transformative journey of yoga and sound healing with our thoughtfully designed workshops and retreats!
-          Go deeper into these powerful practices, where support and profound learning go hand in hand.</p>
+<section id="workshop"  style={{backgroundColor: '#fff6ea', paddingBottom: '', width: '100vw'}}>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="" style={{
+          backgroundColor: '#fff6ea',
+          height: '300px'
+        }}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid reveal">
+    {/* <!-- Card for text and image --> */}
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="" style={{
+          marginTop: "-250px",
+          background: "#fff6ea",
+          backdropFilter: "blur(30px)",
+        }}>
+          <div class="card-body">
+            <div class="row">
+              {/* <!-- Column for image on the left --> */}
+              <div class="col-md-6">
+                <img src={WarriorOne} style={{maxWidth: '100%', height: '600px'}}></img>
+              </div>
+              {/* <!-- Column for text on the right --> */}
+              <div class="col-md-6">
+                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px", fontFamily: 'Prata'}}>Workshops</h1>
+                  <p style={{textAlign: "left", fontSize:"26px", fontFamily: 'Prata'}}>
+                  Immerse yourself in the transformative journey of yoga and sound healing with our thoughtfully designed workshops and retreats!
+                  Go deeper into these powerful practices, where support and profound learning go hand in hand.
+                  <br></br>
+                  <br></br>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>
+                  </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="mission" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
+{/* <section id="mission" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
   <div class="p-5 bg-image" style={{
         backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
         height: '300px'}}
