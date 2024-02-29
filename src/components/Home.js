@@ -257,7 +257,7 @@ function Home() {
                 <img src={BigGroupSit} style={{maxWidth: '100%', height: '600px'}}></img>
               </div>
               {/* <!-- Column for text on the right --> */}
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px", fontFamily: 'Prata'}}>Yoga & Sound Experience!</h1>
                   <p style={{textAlign: "left", fontSize:"26px", fontFamily: 'Prata'}}>Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
                   Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
@@ -383,7 +383,7 @@ function Home() {
     </div>
   </div>
   <div class="container-fluid reveal">
-    {/* <!-- Card for text and image --> */}
+    {/* {/* <!-- Card for text and image --> /} */}
     <div class="row">
       <div class="col-lg-12">
         <div class="" style={{
@@ -393,19 +393,20 @@ function Home() {
         }}>
           <div class="card-body">
             <div class="row">
-              {/* <!-- Column for text on the left --> */}
+              {/* {/ <!-- Column for text on the left --> /} */}
               <div class="col-md-6">
-                <h2 style={{fontFamily: 'Prata'}} class="fw-bold mb-5 py-5">Moon Events</h2>
-                <p style={{fontSize:"20px", fontFamily: 'Prata'}}> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
+                <h1 style={{fontFamily: 'Prata', fontSize: "45px"}} class="fw-bold mb-5 py-5">Moon Events</h1>
+                <p style={{fontSize:"26px", fontFamily: 'Prata', textAlign: "left"}} class='ms-lg-5'> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
                 combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
                 Release tension, clear your mind, and restore your natural equilibrium. 
                 Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
                 <br></br>
-                button: current offerings here !!!</p>
+                <br></br>
+                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center></p>
               </div>
-              {/* <!-- Column for image on the right --> */}
+              {/* {/ <!-- Column for image on the right --> */}
               <div class="col-md-6">
-                <img src={Moon} style={{maxWidth: '100%', height: 'auto'}}></img>
+                <img src={Moon} style={{maxWidth: '100%', height: '600px'}}></img>
               </div>
             </div>
           </div>
@@ -414,8 +415,6 @@ function Home() {
     </div>
   </div>
 </section>
-
-<hr style={{border: '1px solid #fff6ea', width: '100%', margin: '0', height: '0'}} />
 
 <section id="workshop"  style={{backgroundColor: '#fff6ea', paddingBottom: '', width: '100vw'}}>
   <div class="container-fluid">
@@ -445,7 +444,7 @@ function Home() {
                 <img src={WarriorOne} style={{maxWidth: '100%', height: '600px'}}></img>
               </div>
               {/* <!-- Column for text on the right --> */}
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px", fontFamily: 'Prata'}}>Workshops</h1>
                   <p style={{textAlign: "left", fontSize:"26px", fontFamily: 'Prata'}}>
                   Immerse yourself in the transformative journey of yoga and sound healing with our thoughtfully designed workshops and retreats!
