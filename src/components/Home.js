@@ -8,6 +8,8 @@ import Hero from "../images/Hero.jpg";
 import BigGroupSit from "../images/BigGroupSit.jpg";
 import Moon from "../images/Moon.gif";
 import WarriorOne from "../images/WarriorOne.jpg";
+import BreeCBio from "../images/BreeCBio.jpg";
+import BreeCbg from "../images/BreeCbg.jpg";
 
 function Home() {
 
@@ -319,24 +321,16 @@ function Home() {
       </div>
     </div>
 </section>
-{/*
-<section id="companyBio" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
-  <div class="p-5 bg-image" style={{
-        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
-        height: '300px'}}
-        ></div>
 
-  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
-        marginTop: "-100px",
-        background: "hsla(0, 0%, 100%, 0.6)",
-        backdropFilter: "blur(30px)",
-  }}>
-    <div class="card-body py-5 px-md-5">
+<section id="companyBio" class="text-center" style={{backgroundImage: 'linear-gradient(to top, #fff6ea, #e1c684 )', paddingBottom: '50px'}}>
 
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
-          <h2 class="fw-bold mb-5">Origins</h2>
-          <p> Seven years ago, in the heart of Atlanta, a chance encounter at a wellness boutique brought us together. 
+
+<div class="card-body py-5 px-md-5">
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-lg-6">
+      <h2 class="fw-bold mb-5" style={{fontSize: "45px",  fontFamily: 'Prata'}}>Origins</h2>
+        <p style={{fontSize: "26px",  fontFamily: 'Prata'}}> Seven years ago, in the heart of Atlanta, a chance encounter at a wellness boutique brought us together. 
           It was there that we, Bree and Bree, discovered a mutual passion for yoga and meditation, as well as a shared dream to spread healing across the globe. 
           Our belief is firmly rooted in the inclusivity of wellness, welcoming individuals of all shapes, sizes, and mindsets. 
           We are committed to creating an environment where everyone feels accepted and can partake in the journey of healing, support, and unconditional love. 
@@ -345,46 +339,69 @@ function Home() {
           Our yoga practices are designed to be accessible and empowering, celebrating the diversity and uniqueness of each individual. 
           Complementing this, our sound healing sessions offer a journey through immersive vibrations, facilitating deep emotional and mental healing. 
           This dual-instructor approach allows for a beautiful balance. Our teaching styles harmoniously blend to provide a more rounded, diverse, and enriching experience.
-</p>
+        </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="bioBreeC"  style={{backgroundColor: '#fff6ea', paddingBottom: '100px'}}>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="" style={{
+          backgroundColor: '#fff6ea',
+          height: '300px'
+        }}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid reveal">
+    {/* <!-- Card for text and image --> */}
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="" style={{
+                marginTop: "-250px",
+                backgroundImage: `linear-gradient(to bottom, rgba(255, 246, 234, .6) 0%, rgba(255, 246, 234, 0) 50%, rgba(255, 246, 234, .6) 100%), url(${BreeCbg})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundColor: '#fff6ea',
+                backdropFilter: 'blur(30px)',
+        }}>
+          <div img="" class="card-body">
+            <div class="row">
+              {/* <!-- Column for image on the left --> */}
+              <div class="col-md-6">
+                <img src={BreeCBio} style={{maxWidth: '100%', maxHeight: '600px', marginTop: '100px'}}></img>
+              </div>
+              {/* <!-- Column for text on the right --> */}
+              <div class="col-md-5">
+                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px", fontFamily: 'Prata'}}>Bree C</h1>
+                  <p style={{textAlign: "left", fontSize:"24px", fontFamily: 'Prata'}}>
+                  Hello, I'm Bree :) Holistic wellness coach, nutritionist, yoga and meditation instructor, and personal trainer. 
+                  My approach to mental and physical healing is nurtured through balanced mindfulness, movement, breathing, rest, and proper nutrition. I teach techniques that guide you to:
+                  <ul>
+                    <li>Adopt sustainable, nourishing dietary habits that fuel both body and soul.</li>
+                    <li>Deepen the connection with your inner self, cultivating mindfulness and self-awareness.</li>
+                    <li>Balance your physical, emotional, and spiritual well-being through integrative practices.</li>
+                  </ul>
+                  Enjoy the harmonious, vibrant, and joyous things in life.
+                  <br></br>
+                  <br></br>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>
+                  </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="bioBreeC" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
-  <div class="p-5 bg-image" style={{
-        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
-        height: '300px'}}
-        ></div>
-
-  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
-        marginTop: "-100px",
-        background: "hsla(0, 0%, 100%, 0.6)",
-        backdropFilter: "blur(30px)",
-  }}>
-    <div class="card-body py-5 px-md-5">
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
-          <h2 class="fw-bold mb-5">Bree C</h2>
-          <p> Hello, I'm Bree :) Holistic wellness coach, nutritionist, yoga and meditation instructor, and personal trainer. 
-          My approach to mental and physical healing is nurtured through balanced mindfulness, movement, breathing, rest, and proper nutrition. I teach techniques that guide you to:
-          <br></br>
-          Adopt sustainable, nourishing dietary habits that fuel both body and soul.
-          <br></br>
-          Deepen the connection with your inner self, cultivating mindfulness and self-awareness.
-          <br></br>
-          Balance your physical, emotional, and spiritual well-being through integrative practices.
-          <br></br>
-          Enjoy the harmonious, vibrant, and joyous things in life.
-</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+{/*
 <section id="bioBreeM" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
   <div class="p-5 bg-image" style={{
         backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
