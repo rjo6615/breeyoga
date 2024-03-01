@@ -1,7 +1,7 @@
 function Footer() {
     return (       
         <div>
-        <footer className="text-center text-black" style={{  backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)'}}>
+        <footer className="text-center text-black" style={{  backgroundImage: 'linear-gradient(to bottom, #90adc6, #fff6ea)'}}>
           <div className="container p-4">
             <section className="mb-4">
               <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
