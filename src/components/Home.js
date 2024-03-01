@@ -17,7 +17,7 @@ function Home() {
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 150;
+      var elementVisible = 0;
 
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
@@ -65,7 +65,7 @@ function Home() {
     <div class="d-flex justify-content-center align-items-center">
       <div class="text-black" style={{paddingTop: "200px"}}>
         <h1 class="mb-3" style={{fontSize: "50px", fontFamily: "Prata"}}>Yoga and Sound Healing</h1>
-        <h4 class="mb-3" style={{fontSize: "26px", fontFamily: "Prata"}}>Come join me in the healing that I do to heal you to make you better</h4>
+        <h4 class="mb-3" style={{fontSize: "22px", fontFamily: "Prata"}}>Come join me in the healing that I do to heal you to make you better</h4>
         <a class="btn btn-outline-dark btn-lg" style={{fontFamily:"Prata"}} href="#!" role="button">Contact me</a>
       </div>
     </div>
@@ -101,12 +101,12 @@ function Home() {
               </div>
               {/* <!-- Column for text on the right --> */}
               <div class="col-md-5">
-                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px", fontFamily: 'Prata'}}>Yoga & Sound Experience!</h1>
-                  <p style={{textAlign: "left", fontSize:"26px", fontFamily: 'Prata'}}>Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
+                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"40px", fontFamily: 'Prata'}}>Yoga & Sound Experience!</h1>
+                  <p style={{textAlign: "left", fontSize:"22px", fontFamily: 'Prata'}}>Bree C guides you through a gentle and mindful, 30-minute yoga flow. Perfect for beginners or experienced yogis looking to relieve tension/stress.
                   Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
                   <br></br>
                   <br></br>
-                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="#!" role="button">Contact me</a></center>
                   </p>
               </div>
             </div>
@@ -120,9 +120,9 @@ function Home() {
 <section id="eventPrivate" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '150px', paddingTop: "100px"}}>
     <div class="card-body py-5">
 
-      <div class="">
-          <h2 class="fw-bold mb-5" style={{fontFamily: 'Prata'}}>Private Events</h2>
-          <p style={{fontFamily: 'Prata', fontSize:"24px"}}> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
+      <div class="reveal">
+          <h2 class="fw-bold mb-5" style={{fontFamily: 'Prata', fontSize: "40px"}}>Private Events</h2>
+          <p style={{fontFamily: 'Prata', fontSize:"22px"}}> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
 
           {/* Carousel inside the card */}
           <div className="container text-center my-3">
@@ -208,7 +208,7 @@ function Home() {
     </div>
           
           
-    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"30px", fontFamily:"Prata"}} href="#!" role="button">Contact me</a></center>        
+    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"22px", fontFamily:"Prata"}} href="#!" role="button">Contact me</a></center>        
       </div>
     </div>
 </section>
@@ -238,14 +238,14 @@ function Home() {
             <div class="row">
               {/* {/ <!-- Column for text on the left --> /} */}
               <div class="col-md-6">
-                <h1 style={{fontFamily: 'Prata', fontSize: "45px"}} class="fw-bold mb-5 py-5">Moon Events</h1>
-                <p style={{fontSize:"26px", fontFamily: 'Prata', textAlign: "left"}} class='ms-lg-5'> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
+                <h1 style={{fontFamily: 'Prata', fontSize: "40px"}} class="fw-bold mb-5 py-5">Moon Events</h1>
+                <p style={{fontSize:"22px", fontFamily: 'Prata', textAlign: "left"}} class='ms-lg-5'> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
                 combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
                 Release tension, clear your mind, and restore your natural equilibrium. 
                 Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
                 <br></br>
                 <br></br>
-                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center></p>
+                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="#!" role="button">Contact me</a></center></p>
               </div>
               {/* {/ <!-- Column for image on the right --> */}
               <div class="col-md-6">
@@ -288,13 +288,13 @@ function Home() {
               </div>
               {/* <!-- Column for text on the right --> */}
               <div class="col-md-5">
-                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px", fontFamily: 'Prata'}}>Workshops</h1>
-                  <p style={{textAlign: "left", fontSize:"26px", fontFamily: 'Prata'}}>
+                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"40px", fontFamily: 'Prata'}}>Workshops</h1>
+                  <p style={{textAlign: "left", fontSize:"22px", fontFamily: 'Prata'}}>
                   Immerse yourself in the transformative journey of yoga and sound healing with our thoughtfully designed workshops and retreats!
                   Go deeper into these powerful practices, where support and profound learning go hand in hand.
                   <br></br>
                   <br></br>
-                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="#!" role="button">Contact me</a></center>
                   </p>
               </div>
             </div>
@@ -312,8 +312,8 @@ function Home() {
 
       <div class="row d-flex justify-content-center">
         <div class="col-lg-6">
-          <h2 class="fw-bold mb-5" style={{fontSize: "45px",  fontFamily: 'Prata'}}>Our Mission</h2>
-          <p style={{fontSize: "26px",  fontFamily: 'Prata'}}> Our mission is to create a safe space for our community to experience the transformative power of yoga and sound healing. 
+          <h2 class="fw-bold mb-5" style={{fontSize: "40px",  fontFamily: 'Prata'}}>Our Mission</h2>
+          <p style={{fontSize: "22px",  fontFamily: 'Prata'}}> Our mission is to create a safe space for our community to experience the transformative power of yoga and sound healing. 
             Fusing these two practices offers a unique balance of Mind, Body, and Spirit.</p>
         </div>
       </div>
