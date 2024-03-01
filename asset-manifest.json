@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/breeyoga/static/css/main.8c71c65d.css",
-    "main.js": "/breeyoga/static/js/main.d6d81dbb.js",
+    "main.js": "/breeyoga/static/js/main.22fc7afc.js",
     "static/js/787.0973f59e.chunk.js": "/breeyoga/static/js/787.0973f59e.chunk.js",
     "static/media/Moon.gif": "/breeyoga/static/media/Moon.2765f13d02b7155c4f20.gif",
     "static/media/WarriorOne.jpg": "/breeyoga/static/media/WarriorOne.eea0bd56c3e10a3b0366.jpg",
@@ -22,11 +22,11 @@
     "static/media/slick.woff": "/breeyoga/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/breeyoga/index.html",
     "main.8c71c65d.css.map": "/breeyoga/static/css/main.8c71c65d.css.map",
-    "main.d6d81dbb.js.map": "/breeyoga/static/js/main.d6d81dbb.js.map",
+    "main.22fc7afc.js.map": "/breeyoga/static/js/main.22fc7afc.js.map",
     "787.0973f59e.chunk.js.map": "/breeyoga/static/js/787.0973f59e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c71c65d.css",
-    "static/js/main.d6d81dbb.js"
+    "static/js/main.22fc7afc.js"
   ]
 }
