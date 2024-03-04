@@ -67,7 +67,7 @@ function Home() {
     <div class="d-flex justify-content-center align-items-center">
       <div class="text-white" style={{paddingTop: "200px"}}>
         <h1 class="mb-3" style={{fontSize: "50px", fontFamily: "Prata"}}>Yoga and Sound Healing</h1>
-        <h4 class="mb-3" style={{fontSize: "26px", fontFamily: "Prata"}}>Come join me in the healing that I do to heal you to make you better</h4>
+        <h4 class="mb-3" style={{fontSize: "26px", fontFamily: "Prata"}}>Come join me and experience the healing of sound and yoga</h4>
         <a class="btn btn-outline-light btn-lg" style={{fontFamily:"Prata"}} href="#!" role="button">Contact me</a>
       </div>
     </div>
