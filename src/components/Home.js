@@ -16,6 +16,7 @@ import YogaSoundbg from "../images/YogaSoundbg.jpg";
 import Privatebg from "../images/Privatebg.jpg";
 import Workshopsbg from "../images/Workshopsbg.jpg";
 import Moonbg from "../images/Moonbg.jpg";
+import Originbg from "../images/Originbg.jpg";
 
 
 function Home() {
@@ -336,15 +337,15 @@ function Home() {
     </div>
 </section>
 
-<section id="companyBio" class="text-center" style={{backgroundImage: 'linear-gradient(to top, #fff6ea, #90adc6 )', paddingBottom: '50px'}}>
+<section id="Origins" class="text-center" style={{background: `linear-gradient(rgba(144, 173, 198, 1), rgba(144, 173, 198, .8) 20%, rgba(255, 246, 234, .8) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Originbg})`, paddingBottom: '50px'}}>
 
 
 <div class="card-body py-5 px-md-5">
 
   <div class="row d-flex justify-content-center">
     <div class="col-lg-6">
-      <h2 class="fw-bold mb-5" style={{fontSize: "45px",  fontFamily: 'Prata'}}>Origins</h2>
-        <p style={{fontSize: "26px",  fontFamily: 'Prata'}}> Seven years ago, in the heart of Atlanta, a chance encounter at a wellness boutique brought us together. 
+      <h2 class="fw-bold mb-5" style={{fontSize: "45px",  fontFamily: 'Prata', color: "black"}}>Origins</h2>
+        <p style={{fontSize: "26px",  fontFamily: 'Prata', color: "black"}}> Seven years ago, in the heart of Atlanta, a chance encounter at a wellness boutique brought us together. 
           It was there that we, Bree and Bree, discovered a mutual passion for yoga and meditation, as well as a shared dream to spread healing across the globe. 
           Our belief is firmly rooted in the inclusivity of wellness, welcoming individuals of all shapes, sizes, and mindsets. 
           We are committed to creating an environment where everyone feels accepted and can partake in the journey of healing, support, and unconditional love. 
