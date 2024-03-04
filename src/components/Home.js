@@ -116,7 +116,7 @@ function Home() {
                   Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
                   <br></br>
                   <br></br>
-                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Yoga%20%2B%20Sound%20Events" role="button">Book Now</a></center>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Yoga%20%2B%20Sound%20Events" role="button">Book Now</a></center>
                   </p>
               </div>
             </div>
@@ -260,7 +260,7 @@ function Home() {
                 Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
                 <br></br>
                 <br></br>
-                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Full%20%26%20New%20Moon%20Yoga%20%2B%20Sound%20Events" role="button">Book Now</a></center></p>
+                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Full%20%26%20New%20Moon%20Yoga%20%2B%20Sound%20Events" role="button">Book Now</a></center></p>
               </div>
               {/* {/ <!-- Column for image on the right --> */}
               <div class="col-md-6">
@@ -310,7 +310,7 @@ function Home() {
                   Go deeper into these powerful practices, where support and profound learning go hand in hand.
                   <br></br>
                   <br></br>
-                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Workshop%20%2B%20Retreats" role="button">Book Now</a></center>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Workshop%20%2B%20Retreats" role="button">Book Now</a></center>
                   </p>
               </div>
             </div>
@@ -404,7 +404,7 @@ function Home() {
                   Enjoy the harmonious, vibrant, and joyous things in life.
                   <br></br>
                   <br></br>
-                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Book Now</a></center>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22x"}} href="#!" role="button">Book Now</a></center>
                   </p>
               </div>
             </div>
@@ -452,7 +452,7 @@ function Home() {
                   And most importantly, to always hold a safe space for my students and clients to be seen, heard and understood throughout their journey.
                 <br></br>
                 <br></br>
-                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Book Now</a></center></p>
+                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="#!" role="button">Book Now</a></center></p>
               </div>
               {/* {/ <!-- Column for image on the right --> */}
               <div class="col-md-6">
