@@ -223,7 +223,7 @@ function Home() {
     </div>
           
           
-    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"30px", fontFamily:"Prata"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Corporate%20%2B%20Private%20Events" role="button">Book Now</a></center>        
+    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"22px", fontFamily:"Prata"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Corporate%20%2B%20Private%20Events" role="button">Book Now</a></center>        
       </div>
     </div>
 </section>
@@ -404,7 +404,7 @@ function Home() {
                   Enjoy the harmonious, vibrant, and joyous things in life.
                   <br></br>
                   <br></br>
-                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22x"}} href="#!" role="button">Book Now</a></center>
+                  <center><a class="btn btn-outline-dark btn-lg instagram" style={{fontSize:"22x", color: 'white'}} href="https://www.instagram.com/br330na/" role="button">Follow me on <i className="fab fa-instagram"></i></a></center>
                   </p>
               </div>
             </div>
@@ -452,7 +452,7 @@ function Home() {
                   And most importantly, to always hold a safe space for my students and clients to be seen, heard and understood throughout their journey.
                 <br></br>
                 <br></br>
-                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="#!" role="button">Book Now</a></center></p>
+                <center><a class="btn btn-outline-dark btn-lg instagram" style={{fontSize:"22x", color: 'white'}} href="https://www.instagram.com/theyellowalchemist/" role="button">Follow me on <i className="fab fa-instagram"></i></a></center></p>
               </div>
               {/* {/ <!-- Column for image on the right --> */}
               <div class="col-md-6">
