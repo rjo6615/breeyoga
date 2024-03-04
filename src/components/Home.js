@@ -15,6 +15,7 @@ import BreeMbg from "../images/BreeMbg.jpg";
 import YogaSoundbg from "../images/YogaSoundbg.jpg";
 import Privatebg from "../images/Privatebg.jpg";
 import Workshopsbg from "../images/Workshopsbg.jpg";
+import Moonbg from "../images/Moonbg.jpg";
 
 
 function Home() {
@@ -245,7 +246,7 @@ function Home() {
       <div class="col-lg-12">
         <div class="py-5" style={{
           marginTop: "-250px",
-          background: 'linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, 0.8) 20%, rgba(255, 246, 234, 0.8) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg)',
+          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, 0.8) 20%, rgba(255, 246, 234, 0.8) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Moonbg})`,
           backdropFilter: "blur(30px)",
         }}>
           <div class="card-body">
