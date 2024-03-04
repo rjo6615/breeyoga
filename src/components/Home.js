@@ -74,7 +74,7 @@ function Home() {
       <div class="text-white" style={{paddingTop: "200px"}}>
         <h1 class="mb-3" style={{fontSize: "50px", fontFamily: "Prata"}}>Yoga and Sound Healing</h1>
         <h4 class="mb-3" style={{fontSize: "26px", fontFamily: "Prata"}}>Come join me and experience the healing of sound and yoga</h4>
-        <a class="btn btn-outline-light btn-lg" style={{fontFamily:"Prata"}} href="#!" role="button">Contact me</a>
+        <a class="btn btn-outline-light btn-lg" style={{fontFamily:"Prata"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Yoga%20%2B%20Sound%20Events" role="button">Contact me</a>
       </div>
     </div>
   </div>
@@ -115,7 +115,7 @@ function Home() {
                   Bree M creates vibrational frequencies with crystal sound bowls and guides a 30-minute meditation to promote healing, stress reduction, and energetic balance.
                   <br></br>
                   <br></br>
-                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Yoga%20%2B%20Sound%20Events" role="button">Contact me</a></center>
                   </p>
               </div>
             </div>
@@ -222,7 +222,7 @@ function Home() {
     </div>
           
           
-    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"30px", fontFamily:"Prata"}} href="#!" role="button">Contact me</a></center>        
+    <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"30px", fontFamily:"Prata"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Corporate%20%2B%20Private%20Events" role="button">Contact me</a></center>        
       </div>
     </div>
 </section>
@@ -259,7 +259,7 @@ function Home() {
                 Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
                 <br></br>
                 <br></br>
-                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center></p>
+                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Full%20%26%20New%20Moon%20Yoga%20%2B%20Sound%20Events" role="button">Contact me</a></center></p>
               </div>
               {/* {/ <!-- Column for image on the right --> */}
               <div class="col-md-6">
@@ -309,7 +309,7 @@ function Home() {
                   Go deeper into these powerful practices, where support and profound learning go hand in hand.
                   <br></br>
                   <br></br>
-                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center>
+                  <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Workshop%20%2B%20Retreats" role="button">Contact me</a></center>
                   </p>
               </div>
             </div>
