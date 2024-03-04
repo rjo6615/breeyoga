@@ -10,6 +10,9 @@ import Moon from "../images/Moon.gif";
 import WarriorOne from "../images/WarriorOne.jpg";
 import BreeCBio from "../images/BreeCBio.jpg";
 import BreeCbg from "../images/BreeCbg.jpg";
+import BreeMBio from "../images/BreeMBio.jpg";
+import BreeMbg from "../images/BreeMbg.jpg";
+
 
 function Home() {
 
@@ -363,7 +366,7 @@ function Home() {
       <div class="col-lg-12">
         <div class="" style={{
                 marginTop: "-250px",
-                backgroundImage: `linear-gradient(to bottom, rgba(255, 246, 234, .6) 0%, rgba(255, 246, 234, 0) 50%, rgba(255, 246, 234, .6) 100%), url(${BreeCbg})`,
+                backgroundImage: `linear-gradient(to bottom, rgba(255, 246, 234, 1) 0%, rgba(255, 246, 234, .6) 50%, rgba(255, 246, 234, .6) 100%), url(${BreeCbg})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -401,37 +404,58 @@ function Home() {
   </div>
 </section>
 
-{/*
-<section id="bioBreeM" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
-  <div class="p-5 bg-image" style={{
-        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
-        height: '300px'}}
-        ></div>
-
-  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
-        marginTop: "-100px",
-        background: "hsla(0, 0%, 100%, 0.6)",
-        backdropFilter: "blur(30px)",
-  }}>
-    <div class="card-body py-5 px-md-5">
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
-          <h2 class="fw-bold mb-5">Bree M</h2>
-          <p> Hello, I’m Bree! A natural-born Empathic Clairvoyant, Tarot Reader, Sound Healing Practitioner, Reiki/Energy Healer, Meditation Guide, 
-          Certified Yoga Teacher for over 11 years mastered in methods/forms including Vinyasa, BUTI, YIN, Restorative, Kundalini and many more. 
-          For someone who can see and hear into the spirit world, I love helping people discover the answers they are seeking. 
-          I’m known for my direct honesty, delivery, empathy, sense of humor and accuracy during my classes and 1:1 sessions. 
-          During your experience, I tune in and speak directly from the heart with pure authenticity & love with the guidance/downloads I receive. 
-          My life’s purpose is to help show people they are chosen for a unique calling and purpose as well through healing guidance techniques. 
-          And most importantly, to always hold a safe space for my students and clients to be seen, heard and understood throughout their journey.
-</p>
+<section id="bioBreeM" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px'}}>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="" style={{
+          backgroundColor: '#fff6ea',
+          height: '200px'
+        }}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid reveal">
+    {/* {/* <!-- Card for text and image --> /} */}
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="py-5" style={{
+          marginTop: "-250px",
+          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, 0) 20%, rgba(255, 246, 234, 0) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${BreeMbg})`,
+          backdropFilter: "blur(30px)",
+          backgroundSize: "cover",
+        }}>
+          <div class="card-body">
+            <div class="row">
+              {/* {/ <!-- Column for text on the left --> /} */}
+              <div class="col-md-6">
+                <h1 style={{fontFamily: 'Prata', fontSize: "45px"}} class="fw-bold mb-5 py-5">Bree M</h1>
+                <p style={{fontSize:"24px", fontFamily: 'Prata', textAlign: "left"}} class='ms-lg-5'> 
+                  Hello, I’m Bree! A natural-born Empathic Clairvoyant, Tarot Reader, Sound Healing Practitioner, Reiki/Energy Healer, Meditation Guide, 
+                  Certified Yoga Teacher for over 11 years mastered in methods/forms including Vinyasa, BUTI, YIN, Restorative, Kundalini and many more. 
+                  For someone who can see and hear into the spirit world, I love helping people discover the answers they are seeking. 
+                  I’m known for my direct honesty, delivery, empathy, sense of humor and accuracy during my classes and 1:1 sessions. 
+                  During your experience, I tune in and speak directly from the heart with pure authenticity & love with the guidance/downloads I receive. 
+                  My life’s purpose is to help show people they are chosen for a unique calling and purpose as well through healing guidance techniques. 
+                  And most importantly, to always hold a safe space for my students and clients to be seen, heard and understood throughout their journey.
+                <br></br>
+                <br></br>
+                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"30px"}} href="#!" role="button">Contact me</a></center></p>
+              </div>
+              {/* {/ <!-- Column for image on the right --> */}
+              <div class="col-md-6">
+                <img src={BreeMBio} style={{maxWidth: '100%', maxHeight: '700px'}}></img>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+{/*
 <section id="testimonials" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
   <div class="p-5 bg-image" style={{
         backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
