@@ -12,6 +12,9 @@ import BreeCBio from "../images/BreeCBio.jpg";
 import BreeCbg from "../images/BreeCbg.jpg";
 import BreeMBio from "../images/BreeMBio.jpg";
 import BreeMbg from "../images/BreeMbg.jpg";
+import YogaSoundbg from "../images/YogaSoundbg.jpg";
+import Privatebg from "../images/Privatebg.jpg";
+import Workshopsbg from "../images/Workshopsbg.jpg";
 
 
 function Home() {
@@ -95,14 +98,15 @@ function Home() {
       <div class="col-lg-12">
         <div class="" style={{
           marginTop: "-250px",
-          background: "#fff6ea",
+          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, .8) 20%, rgba(255, 246, 234, .8) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${YogaSoundbg})`,
           backdropFilter: "blur(30px)",
+          backgroundSize: "cover"
         }}>
           <div class="card-body">
             <div class="row">
               {/* <!-- Column for image on the left --> */}
               <div class="col-md-6">
-                <img src={BigGroupSit} style={{maxWidth: '100%', maxHeight: '600px'}}></img>
+                <img src={BigGroupSit} style={{maxWidth: '100%', maxHeight: '600px', borderRadius: '250px'}}></img>
               </div>
               {/* <!-- Column for text on the right --> */}
               <div class="col-md-5">
@@ -125,7 +129,12 @@ function Home() {
 <section id="eventPrivate" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '150px', paddingTop: "100px"}}>
     <div class="card-body py-5">
 
-      <div class="">
+      <div class="" style={{
+          marginTop: "",
+          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, .4) 20%, rgba(255, 246, 234, .4) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Privatebg})`,
+          backdropFilter: "blur(30px)",
+          backgroundSize: "cover"
+        }}>
           <h2 class="fw-bold mb-5" style={{fontFamily: 'Prata'}}>Private Events</h2>
           <p style={{fontFamily: 'Prata', fontSize:"24px"}}> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
 
@@ -282,18 +291,19 @@ function Home() {
       <div class="col-lg-12">
         <div class="" style={{
           marginTop: "-250px",
-          background: "#fff6ea",
+          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, .9) 20%, rgba(255, 246, 234, .9) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Workshopsbg})`,
           backdropFilter: "blur(30px)",
+          backgroundSize: "cover"
         }}>
           <div class="card-body">
             <div class="row">
               {/* <!-- Column for image on the left --> */}
               <div class="col-md-6">
-                <img src={WarriorOne} style={{maxWidth: '100%', maxHeight: '600px'}}></img>
+                <img src={WarriorOne} style={{maxWidth: '100%', maxHeight: '600px', borderRadius: '250px'}}></img>
               </div>
               {/* <!-- Column for text on the right --> */}
               <div class="col-md-5">
-                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px", fontFamily: 'Prata'}}>Workshops</h1>
+                <h1 class="fw-bold mb-5 py-5" style={{fontSize:"45px", fontFamily: 'Prata'}}>Workshops & Retreats</h1>
                   <p style={{textAlign: "left", fontSize:"26px", fontFamily: 'Prata'}}>
                   Immerse yourself in the transformative journey of yoga and sound healing with our thoughtfully designed workshops and retreats!
                   Go deeper into these powerful practices, where support and profound learning go hand in hand.
@@ -310,7 +320,7 @@ function Home() {
   </div>
 </section>
 
-<section id="mission" class="text-center" style={{backgroundImage: 'linear-gradient(to top, #e1c684, #fff6ea)', paddingBottom: '50px'}}>
+<section id="mission" class="text-center" style={{backgroundImage: 'linear-gradient(to top, #90adc6, #fff6ea)', paddingBottom: '50px'}}>
 
 
     <div class="card-body py-5 px-md-5">
@@ -325,7 +335,7 @@ function Home() {
     </div>
 </section>
 
-<section id="companyBio" class="text-center" style={{backgroundImage: 'linear-gradient(to top, #fff6ea, #e1c684 )', paddingBottom: '50px'}}>
+<section id="companyBio" class="text-center" style={{backgroundImage: 'linear-gradient(to top, #fff6ea, #90adc6 )', paddingBottom: '50px'}}>
 
 
 <div class="card-body py-5 px-md-5">
