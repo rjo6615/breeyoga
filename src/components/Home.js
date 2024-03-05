@@ -561,17 +561,23 @@ function Home() {
               {/* {/ <!-- Column for text on the left --> /} */}
               <div class="col-md-6">
                 <h1 style={{fontFamily: 'Prata', fontSize: "45px"}} class="fw-bold mb-5 py-5">Bree M</h1>
-                <p style={{fontSize:"24px", fontFamily: 'Prata', textAlign: "left"}} class='ms-lg-5'> 
-                  Hello, I’m Bree! A natural-born Empathic Clairvoyant, Tarot Reader, Sound Healing Practitioner, Reiki/Energy Healer, Meditation Guide, 
-                  Certified Yoga Teacher for over 11 years mastered in methods/forms including Vinyasa, BUTI, YIN, Restorative, Kundalini and many more. 
-                  For someone who can see and hear into the spirit world, I love helping people discover the answers they are seeking. 
-                  I’m known for my direct honesty, delivery, empathy, sense of humor and accuracy during my classes and 1:1 sessions. 
-                  During your experience, I tune in and speak directly from the heart with pure authenticity & love with the guidance/downloads I receive. 
-                  My life’s purpose is to help show people they are chosen for a unique calling and purpose as well through healing guidance techniques. 
-                  And most importantly, to always hold a safe space for my students and clients to be seen, heard and understood throughout their journey.
-                <br></br>
-                <br></br>
-                <center><a class="btn btn-outline-dark btn-lg instagram" style={{fontSize:"22x", color: 'white'}} href="https://www.instagram.com/theyellowalchemist/" role="button">Follow me on <i className="fab fa-instagram"></i></a></center></p>
+                <div className="row">
+                <p className="col-md-5" style={{fontSize: "22px",  fontFamily: 'Prata', color: "black", textAlign: "left"}}> 
+                    Hello, I’m Bree! A natural-born Empathic Clairvoyant, Tarot Reader, Sound Healing Practitioner, Reiki/Energy Healer, Meditation Guide, 
+                    Certified Yoga Teacher for over 11 years mastered in methods/forms including Vinyasa, BUTI, YIN, Restorative, Kundalini and many more. 
+                    For someone who can see and hear into the spirit world, I love helping people discover the answers they are seeking.
+                    I’m known for my direct honesty, delivery, empathy, sense of humor and accuracy during my classes and 1:1 sessions. 
+                </p> 
+                <p className="col-md-6" style={{fontSize: "22px",  fontFamily: 'Prata', color: "black", textAlign: "left"}}>
+                    
+                    During your experience, I tune in and speak directly from the heart with pure authenticity & love with the guidance/downloads I receive. 
+                    My life’s purpose is to help show people they are chosen for a unique calling and purpose as well through healing guidance techniques. 
+                    And most importantly, to always hold a safe space for my students and clients to be seen, heard and understood throughout their journey.
+                  <br></br>
+                  <br></br>
+                  <center><a class="btn btn-outline-dark btn-lg instagram" style={{fontSize:"22x", color: 'white'}} href="https://www.instagram.com/theyellowalchemist/" role="button">Follow me on <i className="fab fa-instagram"></i></a></center>
+                  </p>
+                </div>
               </div>
               {/* {/ <!-- Column for image on the right --> */}
               <div class="col-md-6">
