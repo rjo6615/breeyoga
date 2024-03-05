@@ -376,16 +376,10 @@ function Home() {
           <div className="container text-center pb-5">
       <Slider {...settings1}>
     <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
       <h5 class="mb-3">Maria Smantha</h5>
-      <h6 class="text-primary mb-3">Web Developer</h6>
       <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-        tenetur.
+        <i class="fas fa-quote-left pe-2"></i>The yoga experience was truly invigorating, seamlessly weaving tranquility and strength through each pose. 
+        A perfect fusion of mindful movement and serene ambiance left a lasting sense of rejuvenation and contentment.
       </p>
       <ul class="list-unstyled d-flex justify-content-center mb-0">
         <li>
@@ -406,15 +400,10 @@ function Home() {
       </ul>
     </div>
     <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
       <h5 class="mb-3">Lisa Cudrow</h5>
-      <h6 class="text-primary mb-3">Graphic Designer</h6>
       <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis nostrum
-        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.
+        <i class="fas fa-quote-left pe-2"></i>The yoga session was a blissful journey, seamlessly intertwining breath and movement, 
+        leaving me with a profound sense of calm and renewed energy.
       </p>
       <ul class="list-unstyled d-flex justify-content-center mb-0">
         <li>
@@ -435,15 +424,10 @@ function Home() {
       </ul>
     </div>
     <div class="col-md-4 mb-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
       <h5 class="mb-3">John Smith</h5>
-      <h6 class="text-primary mb-3">Marketing Specialist</h6>
       <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et iusto odio
-        dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+        <i class="fas fa-quote-left pe-2"></i>The yoga experience was a revelation, a serene escape that transcended the physical, 
+        offering a profound sense of peace and centeredness that lingered long after the session ended.
       </p>
       <ul class="list-unstyled d-flex justify-content-center mb-0">
         <li>
@@ -600,30 +584,6 @@ function Home() {
     </div>
   </div>
 </section>
-
-{/*
-<section id="testimonials" class="text-center" style={{backgroundImage: 'linear-gradient(to bottom right, #cdb4db, #bde0fe)', paddingBottom: '50px'}}>
-  <div class="p-5 bg-image" style={{
-        backgroundImage: "url('https://mdbootstrap.com/img/new/textures/full/171.jpg')",
-        height: '300px'}}
-        ></div>
-
-  <div class="card mx-4 mx-md-5 shadow-5-strong reveal" style={{
-        marginTop: "-100px",
-        background: "hsla(0, 0%, 100%, 0.6)",
-        backdropFilter: "blur(30px)",
-  }}>
-    <div class="card-body py-5 px-md-5">
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
-          <h2 class="fw-bold mb-5">Testimonials</h2>
-          <p> This section will hold testimonials from previous customers!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> */}
 
 </div>    
   );
