@@ -552,7 +552,7 @@ function Home() {
       <div class="col-lg-12">
         <div class="py-5" style={{
           marginTop: "-250px",
-          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, 0) 20%, rgba(255, 246, 234, 0) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${BreeMbg})`,
+          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, .4) 20%, rgba(255, 246, 234, .4) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${BreeMbg})`,
           backdropFilter: "blur(30px)",
           backgroundSize: "cover",
         }}>
