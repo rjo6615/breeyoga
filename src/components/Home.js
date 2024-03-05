@@ -561,8 +561,8 @@ function Home() {
               {/* {/ <!-- Column for text on the left --> /} */}
               <div class="col-md-6">
                 <h1 style={{fontFamily: 'Prata', fontSize: "45px"}} class="fw-bold mb-5 py-5">Bree M</h1>
-                <div className="row">
-                <p className="col-md-5" style={{fontSize: "22px",  fontFamily: 'Prata', color: "black", textAlign: "left"}}> 
+                <div className="row mx-5">
+                <p className="col-md-6" style={{fontSize: "22px",  fontFamily: 'Prata', color: "black", textAlign: "left"}}> 
                     Hello, I’m Bree! A natural-born Empathic Clairvoyant, Tarot Reader, Sound Healing Practitioner, Reiki/Energy Healer, Meditation Guide, 
                     Certified Yoga Teacher for over 11 years mastered in methods/forms including Vinyasa, BUTI, YIN, Restorative, Kundalini and many more. 
                     For someone who can see and hear into the spirit world, I love helping people discover the answers they are seeking.
