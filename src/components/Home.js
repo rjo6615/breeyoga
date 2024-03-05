@@ -63,6 +63,26 @@ function Home() {
     ],
   };
 
+  const settings1 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true, // Enable auto scroll
+    autoplaySpeed: 3000, // Set auto scroll speed to 3 seconds
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <div>
     {/* <!-- Hero --> /} */}
@@ -335,6 +355,116 @@ function Home() {
           <p style={{fontSize: "26px",  fontFamily: 'Prata'}}> Our mission is to create a safe space for our community to experience the transformative power of yoga and sound healing. 
             Fusing these two practices offers a unique balance of Mind, Body, and Spirit.</p>
         </div>
+      </div>
+    </div>
+</section>
+
+
+<section id="testimonials" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '', paddingTop: ""}}>
+    <div class="card-body">
+
+      <div class="" style={{
+          marginTop: "",
+          background: `linear-gradient(rgba(144, 173, 198, 1), rgba(144, 173, 198, .8) 20%, rgba(255, 246, 234, .8) 80%, rgba(144, 173, 198, 1)) top center no-repeat, url(${Originbg})`,
+          backdropFilter: "blur(30px)",
+          backgroundSize: "cover"
+        }}>
+          <h2 class="fw-bold mb-5" style={{fontFamily: 'Prata'}}>Testimonials</h2>
+          <p style={{fontFamily: 'Prata', fontSize:"24px"}}></p>
+
+          {/* Carousel inside the card */}
+          <div className="container text-center pb-5">
+      <Slider {...settings1}>
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Maria Smantha</h5>
+      <h6 class="text-primary mb-3">Web Developer</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+        tenetur.
+      </p>
+      <ul class="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Lisa Cudrow</h5>
+      <h6 class="text-primary mb-3">Graphic Designer</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis nostrum
+        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.
+      </p>
+      <ul class="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 mb-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">John Smith</h5>
+      <h6 class="text-primary mb-3">Marketing Specialist</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et iusto odio
+        dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+      </p>
+      <ul class="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="far fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+      </Slider>
+    </div>
       </div>
     </div>
 </section>
