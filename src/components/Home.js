@@ -469,24 +469,26 @@ function Home() {
     </div>
 </section>
 
-<section id="Origins" class="text-center" style={{background: `linear-gradient(rgba(144, 173, 198, 1), rgba(144, 173, 198, .8) 20%, rgba(255, 246, 234, .8) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Originbg})`, paddingBottom: '50px'}}>
+<section id="Origins" class="text-center" style={{background: `linear-gradient(rgba(144, 173, 198, 1), rgba(144, 173, 198, .8) 20%, rgba(255, 246, 234, .5) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Originbg})`, paddingBottom: '50px'}}>
 
+<div class="card-body py-5">
 
-<div class="card-body py-5 px-md-5">
-
-  <div class="row d-flex justify-content-center">
-    <div class="col-lg-6">
+  <div class="row d-flex justify-content-center">    
       <h2 class="fw-bold mb-5" style={{fontSize: "45px",  fontFamily: 'Prata', color: "black"}}>Origins</h2>
-        <p style={{fontSize: "26px",  fontFamily: 'Prata', color: "black"}}> Seven years ago, in the heart of Atlanta, a chance encounter at a wellness boutique brought us together. 
+      <div class="col-lg-6" style={{textAlign: "left"}}>
+      <div className="row">
+        <p className="col-md-6" style={{fontSize: "22px",  fontFamily: 'Prata', color: "black", textAlign: "left"}}> Seven years ago, in the heart of Atlanta, a chance encounter at a wellness boutique brought us together. 
           It was there that we, Bree and Bree, discovered a mutual passion for yoga and meditation, as well as a shared dream to spread healing across the globe. 
           Our belief is firmly rooted in the inclusivity of wellness, welcoming individuals of all shapes, sizes, and mindsets. 
-          We are committed to creating an environment where everyone feels accepted and can partake in the journey of healing, support, and unconditional love. 
-          This inclusive approach forms the cornerstone of our mission, ensuring that our space is a sanctuary for all who seek wellness and community.
+          We are committed to creating an environment where everyone feels accepted and can partake in the journey of healing, support, and unconditional love.
+          This inclusive approach forms the cornerstone of our mission, ensuring that our space </p>
+          <p className="col-md-6" style={{fontSize: "22px",  fontFamily: 'Prata', color: "black", textAlign: "left"}}>is a sanctuary for all who seek wellness and community.          
           Yoga and Sound is a collective experience where each session is a step towards self-discovery and communal connection. 
           Our yoga practices are designed to be accessible and empowering, celebrating the diversity and uniqueness of each individual. 
           Complementing this, our sound healing sessions offer a journey through immersive vibrations, facilitating deep emotional and mental healing. 
           This dual-instructor approach allows for a beautiful balance. Our teaching styles harmoniously blend to provide a more rounded, diverse, and enriching experience.
         </p>
+        </div>
     </div>
   </div>
 </div>
