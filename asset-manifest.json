@@ -1,18 +1,27 @@
 {
   "files": {
-    "main.css": "/breeyoga/static/css/main.8c71c65d.css",
-    "main.js": "/breeyoga/static/js/main.1d39b24a.js",
+    "main.css": "/breeyoga/static/css/main.251047c8.css",
+    "main.js": "/breeyoga/static/js/main.f4aa142d.js",
     "static/js/787.0973f59e.chunk.js": "/breeyoga/static/js/787.0973f59e.chunk.js",
-    "static/media/Moon.gif": "/breeyoga/static/media/Moon.2765f13d02b7155c4f20.gif",
+    "static/media/Workshopsbg.jpg": "/breeyoga/static/media/Workshopsbg.0edd280b688b40434569.jpg",
+    "static/media/YogaSoundbg.jpg": "/breeyoga/static/media/YogaSoundbg.6d8961795ed370bb97be.jpg",
+    "static/media/Privatebg.jpg": "/breeyoga/static/media/Privatebg.7849c266d04fe6d2d840.jpg",
+    "static/media/BreeCbg.jpg": "/breeyoga/static/media/BreeCbg.c015933dc5aff5a6fae0.jpg",
+    "static/media/Moonbg.jpg": "/breeyoga/static/media/Moonbg.e976fd541ad37b8dcd62.jpg",
+    "static/media/BreeMbg.jpg": "/breeyoga/static/media/BreeMbg.8a1a1d2712b2c4677c44.jpg",
+    "static/media/Moon.gif": "/breeyoga/static/media/Moon.d310c4a33430c43623cd.gif",
     "static/media/WarriorOne.jpg": "/breeyoga/static/media/WarriorOne.eea0bd56c3e10a3b0366.jpg",
     "static/media/fa-solid-900.ttf": "/breeyoga/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/BigGroupSit.jpg": "/breeyoga/static/media/BigGroupSit.29315ccd0862e466f273.jpg",
     "static/media/Hero.jpg": "/breeyoga/static/media/Hero.e37c72657a38c881ff41.jpg",
     "static/media/fa-brands-400.ttf": "/breeyoga/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/fa-solid-900.woff2": "/breeyoga/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/BreeMBio.jpg": "/breeyoga/static/media/BreeMBio.dd808e5e72987dee79bd.jpg",
+    "static/media/Originbg.jpg": "/breeyoga/static/media/Originbg.88a1c67a990ecafcc520.jpg",
     "static/media/fa-brands-400.woff2": "/breeyoga/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
     "static/media/fa-regular-400.ttf": "/breeyoga/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
     "static/media/Logo.png": "/breeyoga/static/media/Logo.ec913998ecde6fa91ed0.png",
+    "static/media/BreeCBio.jpg": "/breeyoga/static/media/BreeCBio.6f243e08fe2672db294b.jpg",
     "static/media/fa-regular-400.woff2": "/breeyoga/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
     "static/media/fa-v4compatibility.ttf": "/breeyoga/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/breeyoga/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
@@ -21,12 +30,12 @@
     "static/media/slick.ttf": "/breeyoga/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/breeyoga/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/breeyoga/index.html",
-    "main.8c71c65d.css.map": "/breeyoga/static/css/main.8c71c65d.css.map",
-    "main.1d39b24a.js.map": "/breeyoga/static/js/main.1d39b24a.js.map",
+    "main.251047c8.css.map": "/breeyoga/static/css/main.251047c8.css.map",
+    "main.f4aa142d.js.map": "/breeyoga/static/js/main.f4aa142d.js.map",
     "787.0973f59e.chunk.js.map": "/breeyoga/static/js/787.0973f59e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c71c65d.css",
-    "static/js/main.1d39b24a.js"
+    "static/css/main.251047c8.css",
+    "static/js/main.f4aa142d.js"
   ]
 }
