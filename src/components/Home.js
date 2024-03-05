@@ -453,7 +453,7 @@ function Home() {
     </div>
 </section>
 
-<section id="Origins" class="text-center" style={{background: `linear-gradient(rgba(144, 173, 198, 1), rgba(144, 173, 198, .8) 20%, rgba(255, 246, 234, .5) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Originbg})`, paddingBottom: '50px'}}>
+<section id="Origins" class="text-center" style={{background: `linear-gradient(rgba(144, 173, 198, 1), rgba(144, 173, 198, .8) 20%, rgba(255, 246, 234, .7) 90%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Originbg})`, paddingBottom: '50px'}}>
 
 <div class="card-body py-5">
 
