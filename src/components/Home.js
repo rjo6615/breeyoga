@@ -27,7 +27,7 @@ function Home() {
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = -150;
+      var elementVisible = 150;
 
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
@@ -116,7 +116,7 @@ function Home() {
       </div>
     </div>
   </div>
-  <div class="container-fluid reveal">
+  <div class="container-fluid">
     {/* <!-- Card for text and image --> */}
     <div class="row">
       <div class="col-lg-12">
@@ -126,7 +126,7 @@ function Home() {
           backdropFilter: "blur(30px)",
           backgroundSize: "cover"
         }}>
-          <div class="card-body">
+          <div class="card-body reveal">
             <div class="row">
               {/* <!-- Column for image on the left --> */}
               <div class="col-md-6">
@@ -159,6 +159,7 @@ function Home() {
           backdropFilter: "blur(30px)",
           backgroundSize: "cover"
         }}>
+          <div className="reveal">
           <h2 class="fw-bold mb-5" style={{fontFamily: 'Prata'}}>Private Events</h2>
           <p style={{fontFamily: 'Prata', fontSize:"24px"}}> Customize the Yoga & Sound Experience for your next corporate or private event.</p>
 
@@ -244,6 +245,7 @@ function Home() {
         </div>
       </Slider>
     </div>
+    </div>
           
           
     <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"22px", fontFamily:"Prata"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Corporate%20%2B%20Private%20Events" role="button">Book Now</a></center>        
@@ -263,7 +265,7 @@ function Home() {
       </div>
     </div>
   </div>
-  <div class="container-fluid reveal">
+  <div class="container-fluid">
     {/* {/* <!-- Card for text and image --> /} */}
     <div class="row">
       <div class="col-lg-12">
@@ -272,7 +274,7 @@ function Home() {
           background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, 0.8) 20%, rgba(255, 246, 234, 0.8) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Moonbg})`,
           backdropFilter: "blur(30px)",
         }}>
-          <div class="card-body">
+          <div class="card-body reveal">
             <div class="row">
               {/* {/ <!-- Column for text on the left --> /} */}
               <div class="col-md-6">
@@ -309,7 +311,7 @@ function Home() {
       </div>
     </div>
   </div>
-  <div class="container-fluid reveal">
+  <div class="container-fluid">
     {/* <!-- Card for text and image --> */}
     <div class="row">
       <div class="col-lg-12">
@@ -319,7 +321,7 @@ function Home() {
           backdropFilter: "blur(30px)",
           backgroundSize: "cover"
         }}>
-          <div class="card-body">
+          <div class="card-body reveal">
             <div class="row">
               {/* <!-- Column for image on the left --> */}
               <div class="col-md-6">
@@ -350,7 +352,7 @@ function Home() {
     <div class="card-body py-5 px-md-5">
 
       <div class="row d-flex justify-content-center">
-        <div class="col-lg-6">
+        <div class="col-lg-6 reveal">
           <h2 class="fw-bold mb-5" style={{fontSize: "45px",  fontFamily: 'Prata'}}>Our Mission</h2>
           <p style={{fontSize: "26px",  fontFamily: 'Prata'}}> Our mission is to create a safe space for our community to experience the transformative power of yoga and sound healing. 
             Fusing these two practices offers a unique balance of Mind, Body, and Spirit.</p>
@@ -369,6 +371,7 @@ function Home() {
           backdropFilter: "blur(30px)",
           backgroundSize: "cover"
         }}>
+          <div className="reveal">
           <h2 class="fw-bold mb-5" style={{fontFamily: 'Prata'}}>Testimonials</h2>
           <p style={{fontFamily: 'Prata', fontSize:"24px"}}></p>
 
@@ -451,11 +454,12 @@ function Home() {
     </div>
       </div>
     </div>
+    </div>
 </section>
 
 <section id="Origins" class="text-center" style={{background: `linear-gradient(rgba(144, 173, 198, 1), rgba(144, 173, 198, .8) 20%, rgba(255, 246, 234, .7) 90%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Originbg})`, paddingBottom: '50px'}}>
 
-<div class="card-body py-5">
+<div class="card-body py-5 reveal">
 
   <div class="row d-flex justify-content-center">    
       <h2 class="fw-bold mb-5" style={{fontSize: "45px",  fontFamily: 'Prata', color: "black"}}>Origins</h2>
@@ -490,7 +494,7 @@ function Home() {
       </div>
     </div>
   </div>
-  <div class="container-fluid reveal">
+  <div class="container-fluid">
     {/* <!-- Card for text and image --> */}
     <div class="row">
       <div class="col-lg-12">
@@ -503,7 +507,7 @@ function Home() {
                 backgroundColor: '#fff6ea',
                 backdropFilter: 'blur(30px)',
         }}>
-          <div img="" class="card-body">
+          <div img="" class="card-body reveal">
             <div class="row">
               {/* <!-- Column for image on the left --> */}
               <div class="col-md-6">
@@ -546,7 +550,7 @@ function Home() {
       </div>
     </div>
   </div>
-  <div class="container-fluid reveal">
+  <div class="container-fluid">
     {/* {/* <!-- Card for text and image --> /} */}
     <div class="row">
       <div class="col-lg-12">
@@ -556,7 +560,7 @@ function Home() {
           backdropFilter: "blur(30px)",
           backgroundSize: "cover",
         }}>
-          <div class="card-body">
+          <div class="card-body reveal">
             <div class="row">
               {/* {/ <!-- Column for text on the left --> /} */}
               <div class="col-md-6">
