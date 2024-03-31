@@ -95,7 +95,7 @@ function Home() {
     <div class="d-flex justify-content-center align-items-center">
       <div class="text-white" style={{paddingTop: "200px"}}>
         <h1 class="mb-3" style={{fontSize: "50px", fontFamily: "Prata"}}>Yoga and Sound Healing</h1>
-        <h4 class="mb-3" style={{fontSize: "26px", fontFamily: "Prata"}}>Come join me and experience the healing of sound and yoga</h4>
+        <h4 class="mb-3" style={{fontSize: "26px", fontFamily: "Prata"}}>Come join us and experience the healing of sound and yoga</h4>
 
         <a class="btn btn-outline-light btn-lg" style={{fontFamily:"Prata"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Yoga%20%2B%20Sound%20Events" role="button">Book Now</a>
 
