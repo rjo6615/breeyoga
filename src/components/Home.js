@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Hero from "../images/Hero.jpg";
+import Hero2 from "../images/Hero2.jpg";
 import BigGroupSit from "../images/BigGroupSit.jpg";
 import Moon from "../images/Moon.gif";
 import WarriorOne from "../images/WarriorOne.jpg";
@@ -87,7 +88,7 @@ function Home() {
     <div>
     {/* <!-- Hero --> /} */}
 <div class=" text-center bg-image rounded-3" style={{
-    backgroundImage: 'url('+ Hero +')',
+    backgroundImage: 'url('+ Hero2 +')',
     backgroundSize: "cover",
     height: "900px"
   }}>
@@ -150,7 +151,53 @@ function Home() {
   </div>
 </section>
 
-<section id="eventPrivate" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '150px', paddingTop: "100px"}}>
+<section id="eventMoon" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px', paddingTop: '150px'}}>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="" style={{
+          backgroundColor: '#fff6ea',
+          height: '200px'
+        }}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    {/* {/* <!-- Card for text and image --> /} */}
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="py-5" style={{
+          marginTop: "-250px",
+          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, 0.8) 20%, rgba(255, 246, 234, 0.8) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Moonbg})`,
+          backdropFilter: "blur(30px)",
+        }}>
+          <div class="card-body reveal">
+            <div class="row">
+              {/* {/ <!-- Column for text on the left --> /} */}
+              <div class="col-md-6">
+                <h1 style={{fontFamily: 'Prata', fontSize: "45px"}} class="fw-bold mb-5 py-5">Moon Cycle Events</h1>
+                <p style={{fontSize:"26px", fontFamily: 'Prata', textAlign: "left"}} class='ms-lg-5'> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
+                combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
+                Release tension, clear your mind, and restore your natural equilibrium. 
+                Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
+                <br></br>
+                <br></br>
+                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Full%20%26%20New%20Moon%20Yoga%20%2B%20Sound%20Events" role="button">Book Now</a></center></p>
+              </div>
+              {/* {/ <!-- Column for image on the right --> */}
+              <div class="col-md-6">
+                <img src={Moon} style={{maxWidth: '100%', maxHeight: '600px'}}></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="eventPrivate" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '150px', paddingTop: ""}}>
     <div class="card-body py-5">
 
       <div class="" style={{
@@ -169,7 +216,7 @@ function Home() {
         <div className="container text-center my-3">
         <div className="col-md-12">
           <div className="card card1 card-body position-relative">
-            <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
+            <img className="img-fluid image1" src="https://media.istockphoto.com/id/609072850/photo/shes-bringing-some-of-her-bright-ideas-to-the-front.jpg?s=612x612&w=0&k=20&c=w3ITNv_rwk8ET0H272kCrAUf2kc9kRmen3mvbmDUGqo=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
             <div className="overlay">
               <div className="title">Team Building</div>
               <div className="description">Enhance team bonding with our tailored Yoga & Sound Experience for team building events.</div>
@@ -180,21 +227,10 @@ function Home() {
         <div className="container text-center my-3">
         <div className="col-md-12">
           <div className="card card1 card-body position-relative">
-            <img className="img-fluid image1" src="https://media.istockphoto.com/id/609072850/photo/shes-bringing-some-of-her-bright-ideas-to-the-front.jpg?s=612x612&w=0&k=20&c=w3ITNv_rwk8ET0H272kCrAUf2kc9kRmen3mvbmDUGqo=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
+            <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
             <div className="overlay">
-              <div className="title">Leadership Events</div>
+              <div className="title">Corporate Events</div>
               <div className="description">Foster leadership skills and mindfulness in leadership events with our unique experience.</div>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div className="container text-center my-3">
-        <div className="col-md-12">
-          <div className="card card1 card-body position-relative">
-            <img className="img-fluid image1" src="https://thumbs.dreamstime.com/b/wellness-wellbeing-health-healthy-lifestyle-concept-72002474.jpg" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
-            <div className="overlay">
-              <div className="title">Wellness Conferences</div>
-              <div className="description">Elevate wellness conferences with our unique blend of yoga, sound, and meditation sessions.</div>
             </div>
           </div>
         </div>
@@ -251,52 +287,6 @@ function Home() {
     <center><a class="btn btn-outline-dark btn-lg mt-4" style={{fontSize:"22px", fontFamily:"Prata"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Corporate%20%2B%20Private%20Events" role="button">Book Now</a></center>        
       </div>
     </div>
-</section>
-
-<section id="eventMoon" class="text-center" style={{backgroundColor: '#fff6ea', paddingBottom: '50px'}}>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <div class="" style={{
-          backgroundColor: '#fff6ea',
-          height: '200px'
-        }}>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    {/* {/* <!-- Card for text and image --> /} */}
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="py-5" style={{
-          marginTop: "-250px",
-          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, 0.8) 20%, rgba(255, 246, 234, 0.8) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${Moonbg})`,
-          backdropFilter: "blur(30px)",
-        }}>
-          <div class="card-body reveal">
-            <div class="row">
-              {/* {/ <!-- Column for text on the left --> /} */}
-              <div class="col-md-6">
-                <h1 style={{fontFamily: 'Prata', fontSize: "45px"}} class="fw-bold mb-5 py-5">Moon Events</h1>
-                <p style={{fontSize:"26px", fontFamily: 'Prata', textAlign: "left"}} class='ms-lg-5'> Yoga + Sound is a journey of self-discovery and inner peace using the energy of the Full Moon, 
-                combining the therapeutic practice of yoga with the soothing vibrations of sound healing. 
-                Release tension, clear your mind, and restore your natural equilibrium. 
-                Full Moon Ritual immediately following class for those who would like to stay and partake in the magic.
-                <br></br>
-                <br></br>
-                <center><a class="btn btn-outline-dark btn-lg" style={{fontSize:"22px"}} href="https://app.acuityscheduling.com/schedule.php?owner=30563286&appointmentType=category:Full%20%26%20New%20Moon%20Yoga%20%2B%20Sound%20Events" role="button">Book Now</a></center></p>
-              </div>
-              {/* {/ <!-- Column for image on the right --> */}
-              <div class="col-md-6">
-                <img src={Moon} style={{maxWidth: '100%', maxHeight: '600px'}}></img>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <section id="workshop"  style={{backgroundColor: '#fff6ea', paddingBottom: '100px'}}>

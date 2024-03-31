@@ -44,21 +44,20 @@ function NavbarComponent() {
               style={{ maxHeight: '100px', fontFamily: 'Prata' }}
               navbarScroll>
               <Nav.Link href="#home" className="button-pop-out">Home</Nav.Link>
-              <Nav.Link href="#services" className="button-pop-out">Services</Nav.Link>
-              <Nav.Link href="#gallery" className="button-pop-out">Gallery</Nav.Link>
                 <NavDropdown title="Events" id="events-dropdown" className="button-pop-out">
                   <NavDropdown.Item href="#yogaSound">Yoga & Sound</NavDropdown.Item>
                   <NavDropdown.Item href="#eventPrivate">Private Events</NavDropdown.Item>
                   <NavDropdown.Item href="#eventMoon">Moon Events</NavDropdown.Item>
                   <NavDropdown.Item href="#workshop">Workshops</NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link href="#testimonials" className="button-pop-out">Testimonials</Nav.Link>
                 <NavDropdown title="About" id="about-dropdown" className="button-pop-out">
                   <NavDropdown.Item href="#mission">Our Mission</NavDropdown.Item>
                   <NavDropdown.Item href="#companyBio">Company Origins</NavDropdown.Item>
                   <NavDropdown.Item href="#bioBreeC">Bree C Bio</NavDropdown.Item>
                   <NavDropdown.Item href="#bioBreeM">Bree M Bio</NavDropdown.Item>
                 </NavDropdown>
-              <Nav.Link href="#testimonials" className="button-pop-out">Testimonials</Nav.Link>
+                <Nav.Link href="#gallery" className="button-pop-out">Gallery</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
