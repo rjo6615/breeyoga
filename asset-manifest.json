@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/breeyoga/static/css/main.251047c8.css",
-    "main.js": "/breeyoga/static/js/main.e860c6ef.js",
+    "main.js": "/breeyoga/static/js/main.9b85ddd0.js",
     "static/js/787.0973f59e.chunk.js": "/breeyoga/static/js/787.0973f59e.chunk.js",
     "static/media/YogaSoundbg.jpg": "/breeyoga/static/media/YogaSoundbg.6d8961795ed370bb97be.jpg",
     "static/media/Privatebg.jpg": "/breeyoga/static/media/Privatebg.7849c266d04fe6d2d840.jpg",
     "static/media/BreeCbg.jpg": "/breeyoga/static/media/BreeCbg.c015933dc5aff5a6fae0.jpg",
     "static/media/Moonbg.jpg": "/breeyoga/static/media/Moonbg.e976fd541ad37b8dcd62.jpg",
-    "static/media/BreeMbg.jpg": "/breeyoga/static/media/BreeMbg.8a1a1d2712b2c4677c44.jpg",
+    "static/media/BreeMbg.jpg": "/breeyoga/static/media/BreeMbg.e35d9abcd68720618354.jpg",
     "static/media/Moon.gif": "/breeyoga/static/media/Moon.d310c4a33430c43623cd.gif",
     "static/media/WarriorOne.jpg": "/breeyoga/static/media/WarriorOne.eea0bd56c3e10a3b0366.jpg",
     "static/media/fa-solid-900.ttf": "/breeyoga/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
@@ -15,6 +15,7 @@
     "static/media/Workshopsbg.jpg": "/breeyoga/static/media/Workshopsbg.e818434e7721d3be4cd3.jpg",
     "static/media/Hero.jpg": "/breeyoga/static/media/Hero.e37c72657a38c881ff41.jpg",
     "static/media/fa-brands-400.ttf": "/breeyoga/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/Hero2.jpg": "/breeyoga/static/media/Hero2.c8b7876dba6fd53ad847.jpg",
     "static/media/fa-solid-900.woff2": "/breeyoga/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
     "static/media/BreeMBio.jpg": "/breeyoga/static/media/BreeMBio.dd808e5e72987dee79bd.jpg",
     "static/media/Originbg.jpg": "/breeyoga/static/media/Originbg.88a1c67a990ecafcc520.jpg",
@@ -31,11 +32,11 @@
     "static/media/slick.woff": "/breeyoga/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/breeyoga/index.html",
     "main.251047c8.css.map": "/breeyoga/static/css/main.251047c8.css.map",
-    "main.e860c6ef.js.map": "/breeyoga/static/js/main.e860c6ef.js.map",
+    "main.9b85ddd0.js.map": "/breeyoga/static/js/main.9b85ddd0.js.map",
     "787.0973f59e.chunk.js.map": "/breeyoga/static/js/787.0973f59e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.251047c8.css",
-    "static/js/main.e860c6ef.js"
+    "static/js/main.9b85ddd0.js"
   ]
 }
