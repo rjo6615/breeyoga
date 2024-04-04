@@ -461,13 +461,13 @@ function Home() {
 </div>
 </section>
 
-<section id="bioBreeC"  style={{backgroundColor: '#fff6ea', paddingBottom: '100px'}}>
+<section id="bioBreeC" style={{backgroundColor: '#fff6ea', paddingBottom: '50px'}}>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
         <div class="" style={{
           backgroundColor: '#fff6ea',
-          height: '300px'
+          height: '200px'
         }}>
         </div>
       </div>
@@ -477,14 +477,11 @@ function Home() {
     {/* <!-- Card for text and image --> */}
     <div class="row">
       <div class="col-lg-12">
-        <div class="" style={{
-                marginTop: "-250px",
-                backgroundImage: `linear-gradient(to bottom, rgba(255, 246, 234, 1) 0%, rgba(255, 246, 234, .6) 50%, rgba(255, 246, 234, .6) 100%), url(${BreeCbg})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                backgroundColor: '#fff6ea',
-                backdropFilter: 'blur(30px)',
+        <div class="py-5" style={{
+          marginTop: "-250px",
+          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, .6) 20%, rgba(255, 246, 234, .6) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${BreeCbg})`,
+          backdropFilter: "blur(30px)",
+          backgroundSize: "cover",
         }}>
           <div img="" class="card-body reveal">
             <div class="row">
