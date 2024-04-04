@@ -216,17 +216,6 @@ function Home() {
         <div className="container text-center my-3">
         <div className="col-md-12">
           <div className="card card1 card-body position-relative">
-            <img className="img-fluid image1" src="https://media.istockphoto.com/id/609072850/photo/shes-bringing-some-of-her-bright-ideas-to-the-front.jpg?s=612x612&w=0&k=20&c=w3ITNv_rwk8ET0H272kCrAUf2kc9kRmen3mvbmDUGqo=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
-            <div className="overlay">
-              <div className="title">Team Building</div>
-              <div className="description">Enhance team bonding with our tailored Yoga & Sound Experience for team building events.</div>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div className="container text-center my-3">
-        <div className="col-md-12">
-          <div className="card card1 card-body position-relative">
             <img className="img-fluid image1" src="https://media.istockphoto.com/id/1322842973/photo/diverse-business-people-putting-their-hands-together-in-cirle.jpg?s=612x612&w=0&k=20&c=9BAYCv8tAsgYPQdTsFxLzLJsmt6tGYE5Etwd63OccxQ=" alt="Slide 1" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
             <div className="overlay">
               <div className="title">Corporate Events</div>
@@ -546,7 +535,7 @@ function Home() {
       <div class="col-lg-12">
         <div class="py-5" style={{
           marginTop: "-250px",
-          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, .4) 20%, rgba(255, 246, 234, .4) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${BreeMbg})`,
+          background: `linear-gradient(rgba(255, 246, 234, 1), rgba(255, 246, 234, .6) 20%, rgba(255, 246, 234, .6) 80%, rgba(255, 246, 234, 1)) top center no-repeat, url(${BreeMbg})`,
           backdropFilter: "blur(30px)",
           backgroundSize: "cover",
         }}>

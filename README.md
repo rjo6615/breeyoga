@@ -19,7 +19,7 @@ In this project we used the following to build the site
 
 The landing page can be accessed following this link
 
-(Insert here when live site ready)
+https://rjo6615.github.io/breeyoga/
 
 The Url of the Github repository is here
 
